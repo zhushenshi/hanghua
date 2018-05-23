@@ -63,7 +63,7 @@ a:hover {
 }
 .h_con .phone {
     padding-left:23px;
-    /* background: url(../assets/images/iconlist.png) 0 4px no-repeat; */
+    background: url(../../assets/images/iconlist.png) 0 4px no-repeat;
 }
 .h_con ul li em {
     color:#ccc;
@@ -73,7 +73,7 @@ a:hover {
     display: block;
     width:24px;
     height:24px;
-    /* background: url(../assets/images/iconlist.png) no-repeat; */
+    background: url(../../assets/images/iconlist.png) no-repeat;
 }
 .weixin {
     background-position:0 -30px;
@@ -117,7 +117,7 @@ a:hover {
 }
 .search button {
     width: 32px;
-    /* background: url(../assets/images/iconlist.png) 5px -96px no-repeat; */
+    background: url(../../assets/images/iconlist.png) 5px -96px no-repeat;
     cursor: pointer;
 }
 .search button:hover {
@@ -148,7 +148,7 @@ a:hover {
 .icon_home {
     width:17px;
     height: 15px;
-    /* background: url(../assets/images/iconlist.png) 0 -130px no-repeat; */
+    background: url(../../assets/images/iconlist.png) 0 -130px no-repeat;
     display: inline-block;
     vertical-align: middle;
     margin-top:-4px;
@@ -162,7 +162,7 @@ a:hover {
     vertical-align: middle;
     width:10px;
     height:5px;
-    /* background: url(../assets/images/iconlist.png) 0 -230px no-repeat; */
+    background: url(../../assets/images/iconlist.png) 0 -230px no-repeat;
     margin-left:12px;
     transition:all 0.3s;
 }
@@ -190,7 +190,7 @@ a:hover {
 .s_cart .icon_cart {
     width:22px;
     height: 16px;
-    /* background: url(../assets/images/iconlist.png) 0 -160px no-repeat; */
+    background: url(../../assets/images/iconlist.png) 0 -160px no-repeat;
     margin-right:10px;
     display: inline-block;
     vertical-align:middle;
@@ -199,7 +199,7 @@ a:hover {
 .s_cart .icon_sj {
     width:7px;
     height: 4px;
-    /* background: url(../assets/images/iconlist.png) 0 -250px no-repeat; */
+    background: url(../../assets/images/iconlist.png) 0 -250px no-repeat;
     margin-left:10px;
     display: inline-block;
     vertical-align: middle;
@@ -306,7 +306,7 @@ a:hover {
     padding: 2px;
     width: 14px;
     height: 14px;
-    /* background: url(../assets/images/iconlist.png) 2px -298px no-repeat; */
+    background: url(../../assets/images/iconlist.png) 2px -298px no-repeat;
     cursor: pointer;
 
 }
@@ -367,7 +367,7 @@ a:hover {
     float: left;
     width: 100px;
     height: 100px;
-    /* background: url(../assets/images/qrcode.png) 0 0 no-repeat; */
+    background: url(../../assets/images/qrcode.png) 0 0 no-repeat;
 }
 .kefu {
     float: right;

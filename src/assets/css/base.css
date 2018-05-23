@@ -46,13 +46,13 @@ a:hover {
 .header {
     height:90px;
 }
-.logo {
+/* .logo {
     float: left;
     width:238px;
     height:54px;
-    /* background: url(../assets/images/logo.png) 0 0 no-repeat; */
+    background: url(../assets/images/logo.png) 0 0 no-repeat;
     margin-top:18px;
-}
+} */
 .h_con {
     float: right;
     margin-top:2px;

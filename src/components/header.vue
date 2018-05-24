@@ -16,10 +16,10 @@
 			  <!--<li class="top_user"><a href="">admin</a></li>-->
 			  <!--<li class="top_quit"><a href="">退出</a></li>-->
 			</ul>
-			<div class="search clearfloat">
+			<!-- <div class="search clearfloat">
 			  <button type="button"></button>
 			  <input type="text"/>
-			</div>
+			</div> -->
 		  </div>
 		</header>
 		<!--nav-->
@@ -28,22 +28,26 @@
 			<div class="nav">
 			  <ul>
 			<li><a href="index.html"><span class="icon_home"></span>首页</a></li>
-			<li><a href="about.html">关于净美仕</a></li>
+			<li><a href="about.html">关于***</a></li>
 			<li><a href="news.html">公司动态</a></li>
 			<li class="nav_pd">
 			  <a href="product.html">产品中心<span class="icon_pd"></span></a>
 			  <div class="pd_dropdown">
 				<a href="product.html?type=1">净美仕净化器</a>
 				<a href="product.html?type=2">净美仕滤网</a>
+				<a href="product.html?type=2">净美仕滤网</a>
+				<a href="product.html?type=2">净美仕滤网</a>
+				<a href="product.html?type=2">净美仕滤网</a>
+				
 			  </div>
 			</li>
 			<li><a href="contact.html">联系我们</a></li>
 			  </ul>
 			</div>
 			<div class="s_cart">
-			  <a href="cart.html">
+			  <!-- <a href="cart.html">
 			<span class="icon_cart"></span>购物车(<strong id="cart_sum">0</strong>)<span class="icon_sj"></span>
-			  </a>
+			  </a> -->
 			  <div class="cart_dropdown">
 			<!--<h3>您的购物车为空~</h3>-->
 			<ul>
@@ -64,10 +68,10 @@
 				<!--<em></em>-->
 			  <!--</li>-->
 			</ul>
-			<div class="cd_js clearfloat">
+			<!-- <div class="cd_js clearfloat">
 			  <span>共计：<strong>0.00</strong></span>
 			  <a href="#">结算</a>
-			</div>
+			</div> -->
 			  </div>
 			</div>
 		  </div>

@@ -1,5 +1,6 @@
 <template>
   <div class="hello">
+    <Header></Header>
     <h1>{{ msg }}</h1>    
     <h1>{{ msg }}</h1>
     <h1>{{ msg }}</h1>
@@ -12,6 +13,7 @@
 </template>
 
 <script>
+import Header from './Header.vue'
 export default {
   name: 'HelloWorld',
   data () {

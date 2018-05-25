@@ -3,9 +3,9 @@
   <div class="f_con clearfloat">
     <ul>
       <li>
-        <h3>走进净美仕</h3>
+        <h3>走进hh</h3>
         <a href="">公司简介</a>
-        <a href="">净美仕精神</a>
+        <a href="">hh精神</a>
         <a href="">品牌历程</a>
       </li>
       <li>
@@ -21,7 +21,7 @@
         <a href="">下载中心</a>
       </li>
       <li>
-        <h3>加入净美仕</h3>
+        <h3>加入hh</h3>
         <a href="">招聘贤才</a>
         <a href="">联系我们</a>
         <a href="">网站地图</a>

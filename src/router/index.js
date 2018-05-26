@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import Contact from '@/components/Contact'
 import Index from '@/components/Index'
 
 
@@ -28,6 +29,11 @@ export default new Router({
     {
       path: '/index',
       name: 'Index',
+      component: Index
+    },
+	{
+      path: '/contact',
+      name: 'Contace',
       component: Index
     }
   ]

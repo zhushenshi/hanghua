@@ -1,5 +1,6 @@
 <template>
-<div class="header_box"></div>
+<div>
+  <div class="header_box"></div>
 <!--面包屑导航-->
 <div class="breadcrumb">
   <div class="container">
@@ -21,5 +22,6 @@
       邮 箱：yuanquan@mfresh.cn<br>
       电 话：86-10-57422471</p>
   </div>
+</div>
 </div>
 </template>

@@ -33,8 +33,8 @@ export default new Router({
     },
 	{
       path: '/contact',
-      name: 'Contace',
-      component: Index
+      name: 'Contact',
+      component: Contact
     }
   ]
 })

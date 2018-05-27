@@ -1,12 +1,12 @@
 <template>
   <div class="hello">
-    <Header></Header>
+    <header-view></header-view>
     <h1>{{ msg }}</h1>    
   </div>
 </template>
 
 <script>
-import Header from './Header.vue'
+import HeaderView from '@/components/Header.vue'
 export default {
   name: 'HelloWorld',
   data () {

@@ -35,9 +35,9 @@
 			  <div class="pd_dropdown">
 				<a href="product.html?type=1">净美仕净化器</a>
 				<a href="product.html?type=2">净美仕滤网</a>
-				<a href="product.html?type=2">净美仕滤网</a>
-				<a href="product.html?type=2">净美仕滤网</a>
-				<a href="product.html?type=2">净美仕滤网</a>
+				<a href="product.html?type=2">a</a>
+				<a href="product.html?type=2">b</a>
+				<a href="product.html?type=2">c</a>
 				
 			  </div>
 			</li>

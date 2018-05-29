@@ -5,9 +5,9 @@
     <!-- 图片列表-->
       <ul>
         <li style="background: url(images/banner_01.jpg) center 0 no-repeat; display: block;z-index: 20;"><a href="#" class="link"></a></li>
-        <li style="background: url(images/banner_02.jpg) center 0 no-repeat;"><a href="#" class="link"></a></li>
-        <li style="background: url(images/banner_03.jpg) center 0 no-repeat;"><a href="#" class="link"></a></li>
-        <li style="background: url(images/banner_04.jpg) center 0 no-repeat;"><a href="#" class="link"></a></li>
+        <!-- <li style="background: url(images/banner_02.jpg) center 0 no-repeat;"><a href="#" class="link"></a></li> -->
+        <!-- <li style="background: url(images/banner_03.jpg) center 0 no-repeat;"><a href="#" class="link"></a></li> -->
+        <!-- <li style="background: url(images/banner_04.jpg) center 0 no-repeat;"><a href="#" class="link"></a></li> -->
       </ul>
       <!-- 左右箭头-->
       <span class="cut prev"></span>

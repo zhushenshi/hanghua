@@ -1,20 +1,22 @@
 <template>
-  <div class="hello">
+  <div>
     <header-view></header-view>
-    <h1>{{ msg }}</h1>    
+    <!-- <h1>{{ msg }}</h1>     -->
   </div>
 </template>
 
 <script type="text/ecmascript-6">
 import HeaderView from '@/components/Header.vue'
+
 export default {
-    components: {
-    HeaderView
-  },
+  name:'Index',
   data () {
     return {
       msg: '这是主页面'
     }
+  },
+  components: {
+    HeaderView
   }
 }
 </script>

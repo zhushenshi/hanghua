@@ -5,10 +5,12 @@
   </div>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import HeaderView from '@/components/Header.vue'
 export default {
-  name: 'HelloWorld',
+    components: {
+    HeaderView
+  },
   data () {
     return {
       msg: '这是主页面'

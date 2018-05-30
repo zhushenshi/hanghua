@@ -16,16 +16,6 @@ export default new Router({
       name: 'Index',
       component: Index
     },
-	{
-      path: '/header',
-      name: 'Header',
-      component: Header
-    },
-	{
-      path: '/footer',
-      name: 'Footer',
-      component: Footer
-    },
     {
       path: '/index',
       name: 'Index',

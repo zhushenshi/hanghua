@@ -51,27 +51,27 @@
 			  <div class="cart_dropdown">
 			<!--<h3>您的购物车为空~</h3>-->
 			<ul>
-			  <!--<li>-->
-				<!--<a href=""><img src="product-imgs/jhq-m8088a.jpg" alt=""/></a>-->
-				<!--<div>-->
-				  <!--<span>-</span><input type="text" value="2"/><span>+</span>-->
-				<!--</div>-->
-				<!--<strong>¥1599.00</strong>-->
-				<!--<em></em>-->
-			  <!--</li>-->
-			  <!--<li>-->
-				<!--<a href=""><img src="product-imgs/jhq-m8088a.jpg" alt=""/></a>-->
-				<!--<div>-->
-				  <!--<span>-</span><input type="text" value="2"/><span>+</span>-->
-				<!--</div>-->
-				<!--<strong>¥1599.00</strong>-->
-				<!--<em></em>-->
-			  <!--</li>-->
+			  <li>
+				<a href=""><img src="product-imgs/jhq-m8088a.jpg" alt=""/></a>
+				<div>
+				  <span>-</span><input type="text" value="2"/><span>+</span>
+				</div>
+				<strong>¥1599.00</strong>
+				<em></em>
+			  </li>
+			  <li>
+				<a href=""><img src="product-imgs/jhq-m8088a.jpg" alt=""/></a>
+				<div>
+				  <span>-</span><input type="text" value="2"/><span>+</span>
+				</div>
+				<strong>¥1599.00</strong>
+				<em></em>
+			  </li>
 			</ul>
-			<!-- <div class="cd_js clearfloat">
+			<div class="cd_js clearfloat">
 			  <span>共计：<strong>0.00</strong></span>
 			  <a href="#">结算</a>
-			</div> -->
+			</div>
 			  </div>
 			</div>
 		  </div>

@@ -10,16 +10,16 @@
 			  <li><a href="#">English</a></li>
 			  <li><a href="#" class="weixin"></a></li>
 			  <li><a href="#" class="weibo"></a></li>
-			  <!--<li><a href="login.html" class="h_login">登录</a></li>-->
-			  <!--<li><em>|</em></li>-->
-			  <!--<li><a href="register.html" class="h_register">注册</a></li>-->
-			  <!--<li class="top_user"><a href="">admin</a></li>-->
-			  <!--<li class="top_quit"><a href="">退出</a></li>-->
+			  <li><a href="login.html" class="h_login">登录</a></li>
+			  <li><em>|</em></li>
+			  <li><a href="register.html" class="h_register">注册</a></li>
+			  <li class="top_user"><a href="">admin</a></li>
+			  <li class="top_quit"><a href="">退出</a></li>
 			</ul>
-			<!-- <div class="search clearfloat">
+			<div class="search clearfloat">
 			  <button type="button"></button>
 			  <input type="text"/>
-			</div> -->
+			</div>
 		  </div>
 		</header>
 		<!--nav-->

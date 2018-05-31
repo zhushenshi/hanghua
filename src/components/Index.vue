@@ -56,7 +56,8 @@ export default {
   name:'Index',
   data () {
     return {
-      msg: '这是主页面'
+      msg: '这是主页面',
+      urls:['images/banner_01.jpg','images/banner_02.jpg','images/banner_03.jpg','images/banner_04.jpg']
     }
   },
   components: {

@@ -17,7 +17,6 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 #http://www.hfwrrn.com/
-#合肥威荣热能设备有限公司
 ##http://www.jq22.com/jquery-info15947
 ```
 

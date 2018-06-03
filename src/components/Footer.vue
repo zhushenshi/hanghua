@@ -35,7 +35,7 @@
     </div>
   </div>
   <div class="copyright">
-    Copyright © 2014 Apple Inc 保留所有权利。使用条款|客户隐私政策        © 北京净美仕环境科技有限公司  京公安网安备 11010500896 | 京ICP备 12050755
+    Copyright © 2014 Apple Inc 保留所有权利。使用条款|客户隐私政策        © 安徽航华科技有限公司  京公安网安备 11010500896 | 京ICP备 12050755
   </div>
 </div>
 </template>

@@ -7,9 +7,9 @@
 			  <li class="phone">4000-585-116</li>
 			  <li><a href="#">中文</a></li>
 			  <li><em>|</em></li>
-			  <li><a href="#">English</a></li>
-			  <li><a href="#" class="weixin"></a></li>
-			  <li><a href="#" class="weibo"></a></li>
+			  <li><a href="jacvscript:;">English</a></li>
+			  <li><a href="jacvscript:;" class="weixin"></a></li>
+			  <li><a href="jacvscript:;" class="weibo"></a></li>
 			  <li><a href="login.html" class="h_login">登录</a></li>
 			  <li><em>|</em></li>
 			  <li><a href="register.html" class="h_register">注册</a></li>

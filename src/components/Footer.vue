@@ -5,7 +5,7 @@
       <li>
         <h3>走进hh</h3>
         <a href="">公司简介</a>
-        <a href="">hh精神</a>
+        <a href="">航华精神</a>
         <a href="">品牌历程</a>
       </li>
       <li>
@@ -22,9 +22,9 @@
       </li>
       <li>
         <h3>加入hh</h3>
-        <a href="">招聘贤才</a>
-        <a href="">联系我们</a>
-        <a href="">网站地图</a>
+        <a href="jacvscript:;">招聘贤才</a>
+        <a href="jacvscript:;">联系我们</a>
+        <a href="jacvscript:;">网站地图</a>
       </li>
     </ul>
     <span class="qrcode"></span>

@@ -90,7 +90,7 @@ export default {
     top:50%;
     margin-top: -38px;
     left:50%;
-    background: #000 url(../images/iconlist.png) no-repeat;
+    background: #000 url(../assets/images/iconlist.png) no-repeat;
     display: none;
     z-index: 20;
 }

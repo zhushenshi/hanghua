@@ -5,7 +5,7 @@
     <!-- 图片列表-->
       <ul>
         <li style="background: url(images/banner_01.jpg) center 0 no-repeat; display: block;z-index: 20;"><a href="#" class="link"></a></li>
-        <!-- <li style="background: url(images/banner_02.jpg) center 0 no-repeat;"><a href="#" class="link"></a></li> -->
+        <li style="background: url(images/banner_02.jpg) center 0 no-repeat;"><a href="#" class="link"></a></li>
         <!-- <li style="background: url(images/banner_03.jpg) center 0 no-repeat;"><a href="#" class="link"></a></li> -->
         <!-- <li style="background: url(images/banner_04.jpg) center 0 no-repeat;"><a href="#" class="link"></a></li> -->
       </ul>
@@ -69,4 +69,63 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+	.banner {
+    height: 500px;
+    position: relative;
+    border-bottom: 3px solid #ddd;
+}
+.banner ul li {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: none;
+    z-index: 10;
+}
+
+.banner .cut {
+    position: absolute;
+    width: 43px;
+    height: 75px;
+    opacity: 0.3;
+    top:50%;
+    margin-top: -38px;
+    left:50%;
+    background: #000 url(../images/iconlist.png) no-repeat;
+    display: none;
+    z-index: 20;
+}
+.banner:hover .cut {
+    display: block;
+}
+.banner .cut:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+.banner .prev {
+    margin-left:-485px;
+    background-position: 10px -325px;
+}
+.banner .next {
+    margin-left:442px;
+    background-position: 10px -395px;
+}
+.banner .indicator {
+    position: absolute;
+    width: 100%;
+    left:0;
+    bottom:24px;
+    text-align: center;
+    z-index: 20;
+}
+.banner .indicator a {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #ccc;
+    margin: 5px;
+}
+.banner .indicator a.cur {
+    background: #f90;
+}
 </style>

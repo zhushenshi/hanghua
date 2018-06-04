@@ -4,11 +4,11 @@
     <div class="banner">
     <!-- 图片列表-->
       <ul>
-        <li style="background: url(images/banner_01.jpg) center 0 no-repeat; display: block;z-index: 20;"><a href="#" class="link"></a></li>
-        <li style="background: url(images/banner_02.jpg) center 0 no-repeat;"><a href="#" class="link"></a></li>
-        <li v-for="(img,index) in imgUrls" :key='index'><a href="#" class="link"><img :src="img" alt=""/></a></li>
-        <!-- <li style="background: url(images/banner_03.jpg) center 0 no-repeat;"><a href="#" class="link"></a></li> -->
-        <!-- <li style="background: url(images/banner_04.jpg) center 0 no-repeat;"><a href="#" class="link"></a></li> -->
+        <li v-for="(img,index) in imgUrls" :key='index'><a href="#" class="link"><img :src="img" alt=""></a></li>
+        <!-- <li style="background: url(../assets/images/banner_02.jpg) center 0 no-repeat;"><a href="#" class="link"></a></li> -->
+        <!-- <li v-for="(img,index) in imgUrls" :key='index'><a href="#" class="link"><img :src="img" alt=""/></a></li> -->
+        <!-- <li style="background: url(../assets/images/banner_03.jpg) center 0 no-repeat;"><a href="#" class="link"></a></li> -->
+        <!-- <li style="background: url(../assets/images/banner_04.jpg) center 0 no-repeat;"><a href="#" class="link"></a></li> -->
       </ul>
       <!-- 左右箭头-->
       <span class="cut prev"></span>
@@ -58,7 +58,7 @@ export default {
   data () {
     return {
       msg: '这是主页面',
-      imgUrls:['images/banner_01.jpg','images/banner_02.jpg','images/banner_03.jpg','images/banner_04.jpg']
+      imgUrls:['../assets/images/banner_01.jpg','../assets/images/banner_02.jpg','../assets/images/banner_03.jpg','../assets/images/banner_04.jpg']
     }
   },
   components: {
@@ -79,7 +79,7 @@ export default {
     height: 100%;
     width: 100%;
     position: absolute;
-    display: none;
+    display: block;
     z-index: 10;
 }
 

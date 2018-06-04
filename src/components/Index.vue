@@ -4,7 +4,7 @@
     <div class="banner">
     <!-- 图片列表-->
       <ul>
-        <li v-for="(img,index) in imgUrls" :key='index'><a href="#" class="link"><img :src="img" alt=""></a></li>
+        <li v-for="(img,index) in imgUrls" :key='index'><a href="#" class="link"><img src="../assets/images/banner_02.jpg"></a></li>
         <!-- <li style="background: url(../assets/images/banner_02.jpg) center 0 no-repeat;"><a href="#" class="link"></a></li> -->
         <!-- <li v-for="(img,index) in imgUrls" :key='index'><a href="#" class="link"><img :src="img" alt=""/></a></li> -->
         <!-- <li style="background: url(../assets/images/banner_03.jpg) center 0 no-repeat;"><a href="#" class="link"></a></li> -->
@@ -58,7 +58,7 @@ export default {
   data () {
     return {
       msg: '这是主页面',
-      imgUrls:['../assets/images/banner_01.jpg','../assets/images/banner_02.jpg','../assets/images/banner_03.jpg','../assets/images/banner_04.jpg']
+      imgUrls:['/static/img/banner_01.jpg','../assets/images/banner_02.jpg','../assets/images/banner_03.jpg','../assets/images/banner_04.jpg']
     }
   },
   components: {

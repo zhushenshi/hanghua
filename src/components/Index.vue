@@ -58,7 +58,7 @@ export default {
   data () {
     return {
       msg: '这是主页面',
-      imgUrls:['/static/img/banner_01.jpg','../assets/images/banner_02.jpg','../assets/images/banner_03.jpg','../assets/images/banner_04.jpg']
+      imgUrls:['/static/img/banner_01.jpg','/static/images/banner_02.jpg','/static/images/banner_03.jpg','/static/images/banner_04.jpg']
     }
   },
   components: {

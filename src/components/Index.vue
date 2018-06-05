@@ -4,14 +4,14 @@
     <div class="banner">
     <!-- 图片列表-->
       <ul>
-        <li v-for="(img,index) in imgUrls" :key='index'><a href="#" class="link"><img :src="img.src"></a></li>
+        <li v-for="(img,index) in imgUrls" :key='index' v-show="index==mark"><a href="#" class="link"><img :src="img.src"></a></li>
       </ul>
       <!-- 左右箭头-->
       <span class="cut prev"></span>
       <span class="cut next"></span>
       <!-- 小圆点指示器-->
       <div class="indicator">
-        <a href="" class="cur"></a><a href=""></a><a href=""></a><a href=""></a>
+        <a href="" v-for="(img,index) in imgUrls" :key='index' :class="{cur:index==mark}"></a>
       </div>
     </div>
 
@@ -59,7 +59,20 @@ export default {
         {src:require('../assets/images/banner_02.jpg')},
         {src:require('../assets/images/banner_03.jpg')},
         {src:require('../assets/images/banner_04.jpg')}
-        ]
+        ],
+        mark:0
+    }
+  },
+  created (){this.play();},
+  methods: {
+   autoPlay () {  
+      this.mark++;  
+      if (this.mark === 4) { //当遍历到最后一张图片置零  
+        this.mark = 0  
+      }  
+    },
+    play(){
+      setInterval(this.autoPlay, 2500)  
     }
   },
   components: {

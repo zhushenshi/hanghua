@@ -4,11 +4,7 @@
     <div class="banner">
     <!-- 图片列表-->
       <ul>
-        <li v-for="(img,index) in imgUrls" :key='index'><a href="#" class="link"><img src="../assets/images/banner_02.jpg"></a></li>
-        <!-- <li style="background: url(../assets/images/banner_02.jpg) center 0 no-repeat;"><a href="#" class="link"></a></li> -->
-        <!-- <li v-for="(img,index) in imgUrls" :key='index'><a href="#" class="link"><img :src="img" alt=""/></a></li> -->
-        <!-- <li style="background: url(../assets/images/banner_03.jpg) center 0 no-repeat;"><a href="#" class="link"></a></li> -->
-        <!-- <li style="background: url(../assets/images/banner_04.jpg) center 0 no-repeat;"><a href="#" class="link"></a></li> -->
+        <li v-for="(img,index) in imgUrls" :key='index'><a href="#" class="link"><img :src="img.src"></a></li>
       </ul>
       <!-- 左右箭头-->
       <span class="cut prev"></span>
@@ -58,7 +54,12 @@ export default {
   data () {
     return {
       msg: '这是主页面',
-      imgUrls:['/static/img/banner_01.jpg','/static/images/banner_02.jpg','/static/images/banner_03.jpg','/static/images/banner_04.jpg']
+      imgUrls:[
+        {src:require('../assets/images/banner_01.jpg')},
+        {src:require('../assets/images/banner_02.jpg')},
+        {src:require('../assets/images/banner_03.jpg')},
+        {src:require('../assets/images/banner_04.jpg')}
+        ]
     }
   },
   components: {

@@ -7,8 +7,8 @@
         <li v-for="(img,index) in imgUrls" :key='index' v-show="index==mark"><a href="#" class="link"><img :src="img.src"></a></li>
       </ul>
       <!-- 左右箭头-->
-      <span class="cut prev"></span>
-      <span class="cut next"></span>
+      <span class="cut prev" @click="changge(-1)"></span>
+      <span class="cut next" @click="changge(1)"></span>
       <!-- 小圆点指示器-->
       <div class="indicator">
         <a href="" v-for="(img,index) in imgUrls" :key='index' :class="{cur:index==mark}"></a>
@@ -82,6 +82,16 @@ export default {
       clearTimeout(That.timer);
       console.log('mouseenter')
       console.log(this.timer)
+    },
+    changge(parmes){
+     if (this.mark === 3) {
+        this.mark = 0  
+        return
+      }else if(this.mark==0){
+        this.mark = 3;
+        return
+      }
+      this.mark+=parmes;  
     }
   },
   components: {

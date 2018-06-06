@@ -1,7 +1,7 @@
 <template>
   <div>
     <header-view></header-view>
-    <div class="banner" @mouseenter="stop()">
+    <div class="banner" @mouseenter="stop()" @mouseleave="play()">
     <!-- 图片列表-->
       <ul>
         <li v-for="(img,index) in imgUrls" :key='index' v-show="index==mark"><a href="#" class="link"><img :src="img.src"></a></li>
@@ -78,7 +78,8 @@ export default {
        
     },
     stop(){
-      this.timer=null
+      let That=this
+      clearTimeout(That.timer);
       console.log('mouseenter')
       console.log(this.timer)
     }

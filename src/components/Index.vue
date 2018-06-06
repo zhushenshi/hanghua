@@ -83,15 +83,15 @@ export default {
       console.log('mouseenter')
       console.log(this.timer)
     },
-    changge(parmes){
-     if (this.mark === 3) {
+    changge(parms){
+     if (this.mark === 3&&parms===1) {
         this.mark = 0  
         return
-      }else if(this.mark==0){
+      }else if(this.mark===0&&parms===-1){
         this.mark = 3;
         return
       }
-      this.mark+=parmes;  
+      this.mark+=parms;  
     }
   },
   components: {

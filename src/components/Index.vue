@@ -1,7 +1,7 @@
 <template>
   <div>
     <header-view></header-view>
-    <div class="banner">
+    <div class="banner" @mouseenter="stop()">
     <!-- 图片列表-->
       <ul>
         <li v-for="(img,index) in imgUrls" :key='index' v-show="index==mark"><a href="#" class="link"><img :src="img.src"></a></li>
@@ -60,7 +60,8 @@ export default {
         {src:require('../assets/images/banner_03.jpg')},
         {src:require('../assets/images/banner_04.jpg')}
         ],
-        mark:0
+        mark:0,
+        timer: null
     }
   },
   created (){this.play();},
@@ -72,7 +73,14 @@ export default {
       }  
     },
     play(){
-      setInterval(this.autoPlay, 2500)  
+       this.timer=setInterval(this.autoPlay, 2500)  
+      console.log(this.timer)
+       
+    },
+    stop(){
+      this.timer=null
+      console.log('mouseenter')
+      console.log(this.timer)
     }
   },
   components: {

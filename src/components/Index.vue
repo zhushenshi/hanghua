@@ -3,8 +3,11 @@
     <header-view></header-view>
     <div class="banner" @mouseenter="stop()" @mouseleave="play()">
     <!-- 图片列表-->
+    
       <ul>
-        <li v-for="(img,index) in imgUrls" :key='index' v-show="index==mark"><a href="#" class="link"><img :src="img.src"></a></li>
+        <transition  name="fade">
+        <li v-for="(img,index) in imgUrls" :key='index' v-if="index==mark"><a href="#" class="link"><img :src="img.src"></a></li>
+        </transition>
       </ul>
       <!-- 左右箭头-->
       <span class="cut prev" @click="change(-1)"></span>
@@ -106,6 +109,12 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
 	.banner {
     height: 500px;
     position: relative;
@@ -117,7 +126,8 @@ export default {
     position: absolute;
     display: block;
     z-index: 10;
-    overflow:hidden
+    overflow:hidden;
+    transition: all 1s linear;
 }
 .banner ul li img{
   /* width:100%; */

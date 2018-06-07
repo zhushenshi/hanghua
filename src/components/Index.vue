@@ -117,6 +117,10 @@ export default {
     position: absolute;
     display: block;
     z-index: 10;
+    overflow:hidden
+}
+.banner ul li img{
+  /* width:100%; */
 }
 
 .banner .cut {

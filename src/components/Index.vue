@@ -17,7 +17,6 @@
         <a href="" v-for="(img,index) in imgUrls" :key='index' :class="{cur:index==mark}" @mouseenter='indicator(index)'></a>
       </div>
     </div>
-
     <div class="main container">
       <div class="ind_con1">
         <h2 class="title"><a href="#" class="more">more</a>****产品</h2>

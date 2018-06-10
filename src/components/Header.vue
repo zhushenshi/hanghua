@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<!-- <header class="header container">
+		<header class="header container">
 		  <h1 class="logo"><a href="index.html" class="link"></a></h1>
 		  <div class="h_con">
 			<ul class="clearfloat">
@@ -21,7 +21,7 @@
 			  <input type="text"/>
 			</div>
 		  </div>
-		</header> -->
+		</header>
 		<!--nav-->
 		<nav class="navbar">
 		  <div class="container">

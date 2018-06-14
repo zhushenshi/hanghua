@@ -129,7 +129,7 @@ export default {
     transition: all 1s linear;
 }
 .banner ul li img{
-  /* width:100%; */
+  width:100%;
 }
 
 .banner .cut {

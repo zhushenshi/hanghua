@@ -28,7 +28,7 @@ export default new Router({
     },
     {
       path: '/header',
-      name: 'Contact',
+      name: 'Header',
       component: Header
     }
   ]

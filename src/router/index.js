@@ -5,6 +5,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import Contact from '@/components/Contact'
 import Index from '@/components/Index'
+import About from '@/components/About'
 
 
 Vue.use(Router)
@@ -30,6 +31,16 @@ export default new Router({
       path: '/header',
       name: 'Header',
       component: Header
-    }
+    },
+    {
+      path: '/about',
+      name: 'About',
+      component: About
+    },
+    {
+      path: '/footer',
+      name: 'Footer',
+      component: Footer
+    },
   ]
 })

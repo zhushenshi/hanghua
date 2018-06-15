@@ -1,19 +1,16 @@
 <template>
-	<div class="box">
-		<header class="header container">
-		  <h1 class="logo"><router-link to="/index"></router-link></a></h1>
-		</header>
-		<!--nav-->
+	<header>
 		<nav class="navbar">
 		  <div class="container">
 			<div class="nav">
 			  <ul>
+			<li><h1 class="logo"><router-link to="/index"></router-link></a></h1></li>
 			<li><a href="index.html"><span class="icon_home"></span>首页</a></li>
 			<li><a href="about.html">关于航华</a></li>
 			<li><a href="news.html">公司动态</a></li>
-			<li class="nav_pd">
-			  <a href="product.html">工程案例<span class="icon_pd"></span></a>
-			  <div class="pd_dropdown">
+			<li class="nav_more">
+			  <a href="product.html">工程案例<span class="icon_list"><i class="iconfont icon-ai-arrow-down"></i></span></a>
+			  <div class="nav_dropdown">
 				<a href="product.html?type=1">工程案例1</a>
 				<a href="product.html?type=2">工程案例2</a>
 				<a href="product.html?type=2">工程案例3</a>
@@ -57,101 +54,40 @@
 			</div>
 		  </div>
 		</nav>
-	</div>
+	</header>
 </template>
 <script>
+import('../fonts/icon-font/iconfont.css')
 </script>
 <style scoped>
-.box{
-	background-color:#e7e7e7;
+.navbar {
+	height: 60px;
+	background: #1a1a1a;
 }
-	.header {
-			height:54px;
-	}
-	.logo {
-			float: left;
-			width:238px;
-			height:54px;
-			background: url(../assets/images/logo.png)  no-repeat;
-			background-size:contain;
-	}
-	.logo a{display:block;width:100%;height:100%;}
-	.weibo,.weixin {
-			display: block;
-			width:24px;
-			height:24px;
-			/* background: url(../../assets/images/iconlist.png) no-repeat; */
-	}
-	.weixin {
-			background-position:0 -30px;
-	}
-	.weibo {
-			background-position:0 -60px;
-	}
-
-	.h_login {
-			display: block;
-			width: 46px;
-			height: 20px;
-			background: #72b134;
-			color: #fff;
-			line-height: 20px;
-			text-align: center;
-			border-radius: 3px;
-			margin-top:2px;
-	}
-	.h_login:hover {
-			color:#fff;
-			background: #86c647;
-	}
-	.h_register {
-			color: #f90;
-	}
-
-	.search {
-			margin-top:21px;
-	}
-	.search input,.search button {
-			box-sizing: border-box;
-			border:1px solid #ccc;
-			float: right;
-			height:26px;
-	}
-	.search input {
-			width: 228px;
-			border-right:none;
-			padding:0 9px;
-	}
-	.search button {
-			width: 32px;
-			/* background: url(../../assets/images/iconlist.png) 5px -96px no-repeat; */
-			cursor: pointer;
-	}
-	.search button:hover {
-			background-color: #eee;
-	}
-	/*nav*/
-	.navbar {
-			height: 40px;
-			background: #1a1a1a;
-	}
-	.nav {
-			float: left;
-	}
-	.nav>ul>li {
-			float:left;
-			position: relative;
-	}
-	.nav>ul>li>a {
-			display: block;
-			line-height: 40px;
-			color: #fff;
-			font-size: 15px;
-			padding: 0 36px;
-	}
-	.nav>ul>li:hover>a {
-			background: #194788;
-	}
+.navbar .nav{
+	float: left;
+}
+.navbar .nav ul li 	.logo {
+	width:150px;
+	height:60px;
+	background: url(../assets/images/logo.png)  no-repeat;
+	background-size:contain;
+}
+.navbar .nav>ul>li {
+	float:left;
+	position: relative;
+}
+.navbar .nav ul li .logo a{display:block;width:100%;height:100%;}
+.navbar	.nav>ul>li>a {
+	display: block;
+	line-height: 60px;
+	color: #fff;
+	font-size: 16px;
+	padding: 0 36px;
+}
+.navbar	.nav>ul>li:hover>a {
+	background: #07254e;
+}
 	.icon_home {
 			width:17px;
 			height: 15px;
@@ -164,16 +100,15 @@
 	.nav>ul>li.cur>a {
 			background:#f39700 ;
 	}
-	.icon_pd {
+		
+	
+	.icon_list {
 			display: inline-block;
 			vertical-align: middle;
-			width:10px;
-			height:5px;
-			/* background: url(../../assets/images/iconlist.png) 0 -230px no-repeat; */
 			margin-left:12px;
 			transition:all 0.3s;
 	}
-	.nav_pd:hover .icon_pd {
+	.nav_more:hover .icon_list{
 			transform: rotate(180deg);
 	}
 
@@ -213,30 +148,30 @@
 			margin-top:-2px;
 	}
 
-	.pd_dropdown {
+	.nav_dropdown {
 			position: absolute;
-			top:40px;
+			top:60px;
 			width:100%;
-			background: #fff;
+			background: #1a1a1a;
 			box-shadow: 1px 1px 3px #999;
 			display: none;
 			z-index: 100;
 	}
-	.pd_dropdown>a {
+	.nav_dropdown>a {
 			display: block;
 			line-height: 40px;
 			text-align: center;
-			color:#333;
-			border-bottom:1px solid #ccc;
-			background: #fff;
+			color:#ffffff;
+			/* border-bottom:1px solid #ccc; */
+			background: #1a1a1a;
 	}
-	.pd_dropdown>a:hover {
-			background: #eee;
+	.nav_dropdown>a:hover {
+			background: #2080bd;
 	}
-	.pd_dropdown>a:last-child {
+	.nav_dropdown>a:last-child {
 			border-bottom:none;
 	}
-	.nav_pd:hover .pd_dropdown {
+	.nav_more:hover .nav_dropdown {
 			display: block;
 	}
 

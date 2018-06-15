@@ -5,7 +5,7 @@
 				<div class="nav">
 					<ul>
 						<li><h1 class="logo"><router-link to="/index"></router-link></a></h1></li>
-						<li><a href="index.html"><span class="icon_home"></span>首页</a></li>
+						<li><a href="index.html"><i class="iconfont icon-home"></i>首页</a></li>
 						<li><a href="about.html">关于航华</a></li>
 						<li><a href="news.html">公司动态</a></li>
 						<li class="nav_more">
@@ -56,17 +56,7 @@ import('../fonts/icon-font/iconfont.css')
 }
 .navbar	.nav>ul>li:hover>a {
 	background: #07254e;
-}
-.navbar .nav ul li a .icon_home {
-	width:17px;
-	height: 15px;
-	background: url(../assets/images/iconlist.png) 0 -130px no-repeat;
-	display: inline-block;
-	vertical-align: middle;
-	margin-top:-4px;
-	margin-right:13px;
-}
-	
+}	
 .navbar .nav ul li.nav_more .icon_list {
 	display: inline-block;
 	vertical-align: middle;
@@ -99,7 +89,7 @@ import('../fonts/icon-font/iconfont.css')
 .navbar .nav ul li.nav_more .nav_dropdown>a:last-child {
 	border-bottom:none;
 }
-.navbar .nav ul li.nav_more .nav_more:hover .nav_dropdown {
+.navbar .nav ul li.nav_more:hover .nav_dropdown {
 	display: block;
 }
 </style>

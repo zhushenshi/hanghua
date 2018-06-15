@@ -28,16 +28,16 @@
 			<div class="nav">
 			  <ul>
 			<li><a href="index.html"><span class="icon_home"></span>首页</a></li>
-			<li><a href="about.html">关于***</a></li>
+			<li><a href="about.html">关于航华</a></li>
 			<li><a href="news.html">公司动态</a></li>
 			<li class="nav_pd">
-			  <a href="product.html">产品中心<span class="icon_pd"></span></a>
+			  <a href="product.html">工程案例<span class="icon_pd"></span></a>
 			  <div class="pd_dropdown">
-				<a href="product.html?type=1">净美仕净化器</a>
-				<a href="product.html?type=2">净美仕滤网</a>
-				<a href="product.html?type=2">a</a>
-				<a href="product.html?type=2">b</a>
-				<a href="product.html?type=2">c</a>
+				<a href="product.html?type=1">工程案例</a>
+				<a href="product.html?type=2">工程案例</a>
+				<a href="product.html?type=2">工程案例</a>
+				<a href="product.html?type=2">工程案例</a>
+				<a href="product.html?type=2">工程案例</a>
 				
 			  </div>
 			</li>

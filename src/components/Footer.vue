@@ -3,10 +3,10 @@
   <div class="f_con clearfloat">
     <ul>
       <li>
-        <h3>走进hh</h3>
-        <a href="">公司简介</a>
-        <a href="">航华精神</a>
-        <a href="">品牌历程</a>
+        <h3>走进航华</h3>
+        <a href="">公司简介</a><router-link to="/about">公司简介</router-link>
+        <a href="">航华精神</a><router-link to="/about">航海精神</router-link>
+        <a href="">品牌历程</a><router-link to="/about">品牌历程</router-link>
       </li>
       <li>
         <h3>成为合作伙伴</h3>

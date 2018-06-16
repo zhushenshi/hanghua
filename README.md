@@ -19,6 +19,7 @@ npm run build --report
 #http://www.hfwrrn.com/
 ##http://www.jq22.com/jquery-info15947
 ##https://www.smartisan.com/
+#swiper
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).

@@ -4,18 +4,20 @@
 			<div class="container">
 				<div class="nav">
 					<ul>
-						<li><h1 class="logo"><router-link to="/index"></router-link></a></h1></li>
+						<li><h1 class="logo"><router-link to="/index"></router-link></h1></li>
 						<li><router-link to="/index"><i class="iconfont icon-home"></i>首页</router-link></li>
 						<li><a href="about.html">关于航华</a></li>
 						<li><a href="news.html">公司动态</a></li>
 						<li class="nav_more">
 						<a href="product.html">工程案例<span class="icon_list"><i class="iconfont icon-ai-arrow-down"></i></span></a>
 						<div class="nav_dropdown">
-							<a href="product.html?type=1">工程案例1</a>
-							<a href="product.html?type=2">工程案例2</a>
-							<a href="product.html?type=2">工程案例3</a>
-							<a href="product.html?type=2">工程案例4</a>
-							<a href="product.html?type=2">工程案例5</a>
+							<router-link to="/product">工程案例1</router-link>		
+							<router-link to="/product">工程案例1</router-link>		
+							<router-link to="/product">工程案例1</router-link>		
+							<router-link to="/product">工程案例1</router-link>		
+							<router-link to="/product">工程案例1</router-link>		
+							<router-link to="/product">工程案例1</router-link>		
+							<router-link to="/product">工程案例1</router-link>		
 						</div>
 						</li>
 						<li><a href="contact.html">联系我们</a></li>

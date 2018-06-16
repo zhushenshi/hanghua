@@ -6,10 +6,10 @@
 					<ul>
 						<li><h1 class="logo"><router-link to="/index"></router-link></h1></li>
 						<li><router-link to="/index"><i class="iconfont icon-home"></i>首页</router-link></li>
-						<li><a href="about.html">关于航华</a></li>
-						<li><a href="news.html">公司动态</a></li>
+						<li><router-link to="about">关于航华</router-link></li>
+						<li><router-link to="new">公司动态</router-link></li>
 						<li class="nav_more">
-						<a href="product.html">工程案例<span class="icon_list"><i class="iconfont icon-ai-arrow-down"></i></span></a>
+						<router-link to="/product">工程案例<span class="icon_list"><i class="iconfont icon-ai-arrow-down"></i></span></router-link>
 						<div class="nav_dropdown">
 							<router-link to="/product">工程案例1</router-link>		
 							<router-link to="/product">工程案例1</router-link>		
@@ -20,7 +20,7 @@
 							<router-link to="/product">工程案例1</router-link>		
 						</div>
 						</li>
-						<li><a href="contact.html">联系我们</a></li>
+						<li><router-link to="/about">联系我们</router-link></li>
 					</ul>
 				</div>
 			</div>

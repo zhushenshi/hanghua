@@ -129,10 +129,6 @@ export default {
     overflow:hidden;
     transition: all 1s linear;
 }
-.banner ul li img{
-  width:100%;
-}
-
 .banner .cut {
     position: absolute;
     width: 43px;

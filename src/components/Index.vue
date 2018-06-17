@@ -48,6 +48,7 @@
 </template>
 
 <script type="text/ecmascript-6">
+import Swiper from 'swiper'
 import HeaderView from '@/components/Header.vue'
 import FooterView from '@/components/Footer.vue'
 

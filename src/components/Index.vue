@@ -2,7 +2,7 @@
   <div>
     <header-view></header-view>
     <div class="banner" @mouseenter="stop()" @mouseleave="play()">
-    <!-- 图片列表-->
+      <!-- 图片列表-->
     
       <ul>
         <transition  name="fade">
@@ -17,6 +17,19 @@
         <a href="" v-for="(img,index) in imgUrls" :key='index' :class="{cur:index==mark}" @mouseenter='indicator(index)'></a>
       </div>
     </div>
+          <div class="swiper-container">
+              <div class="swiper-wrapper">
+                  <div class="swiper-slide">Slide 1</div>
+                  <div class="swiper-slide">Slide 2</div>
+                  <div class="swiper-slide">Slide 3</div>
+              </div>
+              <!-- 如果需要分页器 -->
+              <div class="swiper-pagination"></div>
+              
+              <!-- 如果需要导航按钮 -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+          </div>
     <div class="main container">
       <div class="ind_con1">
         <h2 class="title"><a href="#" class="more">more</a>****产品</h2>
@@ -52,6 +65,8 @@ import Swiper from 'swiper'
 import HeaderView from '@/components/Header.vue'
 import FooterView from '@/components/Footer.vue'
 
+import 'swiper/dist/css/swiper.min.css';
+
 export default {
   name:'Index',
   data () {
@@ -68,6 +83,27 @@ export default {
     }
   },
   created (){this.play();},
+  mounted (){
+  var mySwiper = new Swiper ('.swiper-container', {
+    
+    // 如果需要前进后退按钮
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable :true,
+        // bulletClass : 'my-bullet',pagination分页器内元素的类名。
+        // bulletActiveClass: 'my-bullet-active',pagination分页器内活动(active)元素的类名。
+        keyboard: {
+          enabled: true,
+        },
+      },
+      loop:true
+    
+  })      
+  },
   methods: {
    autoPlay () {  
       this.mark++;  
@@ -175,4 +211,10 @@ export default {
 .banner .indicator a.cur {
     background: #f90;
 }
+
+
+.swiper-container {
+    width: 100%;
+    height: 300px;
+}  
 </style>

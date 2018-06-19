@@ -33,11 +33,11 @@
     <div class="main container">
       <div class="ind_con1">
         <h2 class="title"><a href="#" class="more">more</a>****产品</h2>
-        <ul class="clearfloat">
+        <!-- <ul class="clearfloat">
           <li><a href="#" class="link"><img src="../assets/images/01.jpg" alt=""/></a></li>
           <li><a href="#" class="link"><img src="../assets/images/02.jpg" alt=""/></a></li>
           <li><a href="#" class="link"><img src="../assets/images/03.jpg" alt=""/></a></li>
-        </ul>
+        </ul> -->
       </div>
       <div class="ind_con2 clearfloat">
         <div class="ind_about">

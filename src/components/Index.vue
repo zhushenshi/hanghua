@@ -15,7 +15,7 @@
     </div> -->
           <div class="swiper-container">
               <div class="swiper-wrapper">
-                  <div class="swiper-slide" v-for="(img,index) in imgUrls" :key='index'><img :src="img.src" alt=""></div>
+                  <div class="swiper-slide" v-for="(img,index) in imgUrls" :key='index'><img :src="img.src" alt="" style="width:100%;"></div>
               </div>
               <!-- 如果需要分页器 -->
               <div class="swiper-pagination"></div>
@@ -70,7 +70,10 @@ export default {
         {src:require('../assets/images/banner_01.jpg')},
         {src:require('../assets/images/banner_02.jpg')},
         {src:require('../assets/images/banner_03.jpg')},
-        {src:require('../assets/images/banner_04.jpg')}
+        {src:require('../assets/images/banner_04.jpg')},
+        {src:require('../assets/images/banner1.png')},
+        {src:require('../assets/images/banner2.jpg')},
+        {src:require('../assets/images/banner3.jpg')},
         ]
     }
   },

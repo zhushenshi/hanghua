@@ -1,18 +1,6 @@
 <template>
   <div>
     <header-view></header-view>
-    <!-- <div class="banner" @mouseenter="stop()" @mouseleave="play()">    
-      <ul>
-        <transition  name="fade">
-        <li v-for="(img,index) in imgUrls" :key='index' v-if="index==mark"><a href="#" class="link"><img :src="img.src"></a></li>
-        </transition>
-      </ul>
-      <span class="cut prev" @click="change(-1)"></span>
-      <span class="cut next" @click="change(1)"></span>
-      <div class="indicator">
-        <a href="" v-for="(img,index) in imgUrls" :key='index' :class="{cur:index==mark}" @mouseenter='indicator(index)'></a>
-      </div>
-    </div> -->
           <div class="swiper-container">
               <div class="swiper-wrapper">
                   <div class="swiper-slide" v-for="(img,index) in imgUrls" :key='index'><img :src="img.src" alt="" style="width:100%;"></div>
@@ -28,7 +16,6 @@
       <div class="ind_con1">
         <h2 class="title"><a href="#" class="more">more</a>航华产品</h2>
         <ul class="clearfloat">
-        <!-- <ul class="clearfloat">
           <li><a href="#" class="link"><img src="../assets/images/01.jpg" alt=""/></a></li>
           <li><a href="#" class="link"><img src="../assets/images/02.jpg" alt=""/></a></li>
           <li><a href="#" class="link"><img src="../assets/images/03.jpg" alt=""/></a></li>

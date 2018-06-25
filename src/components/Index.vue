@@ -28,6 +28,7 @@
       <div class="ind_con1">
         <h2 class="title"><a href="#" class="more">more</a>航华产品</h2>
         <ul class="clearfloat">
+        <!-- <ul class="clearfloat">
           <li><a href="#" class="link"><img src="../assets/images/01.jpg" alt=""/></a></li>
           <li><a href="#" class="link"><img src="../assets/images/02.jpg" alt=""/></a></li>
           <li><a href="#" class="link"><img src="../assets/images/03.jpg" alt=""/></a></li>
@@ -111,13 +112,13 @@ export default {
 <style scoped>
 .swiper-container {
     width: 100%;
-}
+}  
 .title {
     font-size: 16px;
     font-weight: lighter;
-    padding-left:60px;
-    background: url("../assets/images/logo.png")  no-repeat;
-    background-size:contain;
+    padding-left:45px;
+    background: url("../assets/images/logo.png") no-repeat;
+    background-size:contain; 
     line-height: 36px;
     border-bottom: 1px solid #ddd;
 }

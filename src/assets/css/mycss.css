@@ -1,5 +1,4 @@
 /*main*/
-
 .ind_con1 {
     margin-top:20px;
 }
@@ -572,33 +571,6 @@
     font-size: 14px;
     text-indent: 28px;
     margin: 10px 0;
-    line-height: 30px;
-}
-/*��ϵ����*/
-.contect {
-    padding: 55px 70px 500px;
-    color:#666;
-    background: url(../images/contact.jpg) center bottom no-repeat;
-}
-.contect>h2 {
-    width: 329px;
-    height: 39px;
-    background: url(../images/logo2.gif);
-}
-.contect>h3 {
-    margin-top: 25px;
-    font-weight: lighter;
-    font-size: 18px;
-    line-height: 40px;
-}
-.contect>h4 {
-    margin-top: 20px;
-    font-weight: lighter;
-    font-size: 18px;
-}
-.contect>p {
-    margin-top: 6px;
-    font-size: 14px;
     line-height: 30px;
 }
 /*���ﳵ*/

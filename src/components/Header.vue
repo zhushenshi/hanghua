@@ -20,7 +20,7 @@
 							<router-link to="/product">工程案例1</router-link>		
 						</div>
 						</li>
-						<li><router-link to="/about">联系我们</router-link></li>
+						<li><router-link to="/contact">联系我们</router-link></li>
 					</ul>
 				</div>
 			</div>

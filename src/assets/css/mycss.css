@@ -1,20 +1,5 @@
 /*main*/
-.title {
-    font-size: 16px;
-    font-weight: lighter;
-    padding-left:25px;
-    background: url("../images/iconlist.png") 0 -189px no-repeat;
-    line-height: 36px;
-    border-bottom: 1px solid #ddd;
-}
-.title .more {
-    float: right;
-    font-size: 12px;
-    color:#999;
-}
-.title .more:hover {
-    color:#f63;
-}
+
 .ind_con1 {
     margin-top:20px;
 }

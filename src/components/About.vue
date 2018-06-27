@@ -12,7 +12,7 @@
         <!--页面主体-->
         <div class="main container">
         <div class="about">
-            <!-- <div class="about_img"><img src="../assets/images/about.png" alt=""/></div> -->
+            <div class="about_img"><img src="../assets/images/about.png" alt=""/></div>
             <h3>企业文化：</h3>
             <p> 一家人，一条心，一起拼，一定赢。</p>
             <h3>企业口号：</h3>

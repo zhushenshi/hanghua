@@ -556,23 +556,6 @@
     max-width: 100%;
 }
 /*��������*/
-.about {
-    margin-top: 30px;
-}
-.about_img {
-    text-align: center;
-    padding: 40px ;
-}
-.about_img img {
-    max-width: 100%;
-}
-.about p {
-    padding: 0 40px;
-    font-size: 14px;
-    text-indent: 28px;
-    margin: 10px 0;
-    line-height: 30px;
-}
 /*���ﳵ*/
 .cart {
     margin-top:20px;

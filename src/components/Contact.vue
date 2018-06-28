@@ -13,9 +13,9 @@
 <!--页面主体-->
 <div class="main container">
   <div class="contect">
-    <h2></h2>
+    <h1 class="title"><img src="../assets/images/logo.png" alt="">安徽航华科技有限公司</h1>
     <h3>
-      全国服务电话：0551-65233616	0551-65233616(线下代理)    周一至周日9:00-18:00(仅收市话费)<br>
+      全国服务电话：0551-65233616   周一至周日9:00-18:00(仅收市话费)<br>
       金牌售后客服：18225651998
     </h3>
     <h4>安徽航华科技有限公司</h4>
@@ -86,4 +86,6 @@ export default {
     font-size: 14px;
     line-height: 30px;
 }
+.title{height:50px;line-height: 50px;letter-spacing: 1px;font-weight:500;}
+.title img{height:100%;vertical-align: bottom;margin-right:25px;}
 </style>

@@ -6,6 +6,8 @@ import Footer from '@/components/Footer'
 import Contact from '@/components/Contact'
 import Index from '@/components/Index'
 import About from '@/components/About'
+import Intruduce from '@/components/Intruduce'
+
 
 
 Vue.use(Router)
@@ -28,14 +30,19 @@ export default new Router({
       component: Contact
     },
     {
-      path: '/header',
-      name: 'Header',
-      component: Header
-    },
-    {
       path: '/about',
       name: 'About',
       component: About
+    },
+    {
+      path: '/introduce',
+      name: 'Intruduce',
+      component: Intruduce
+    },
+    {
+      path: '/header',
+      name: 'Header',
+      component: Header
     },
     {
       path: '/footer',

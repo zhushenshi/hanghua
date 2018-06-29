@@ -1,5 +1,15 @@
 <template>
     <div>
+	<header-view></header-view>
+        <!--面包屑导航-->
+        <div class="breadcrumb">
+        <div class="container">
+            <h2>
+            <a href="">首页</a>&gt;<a href="javascript:;">关于航华</a>
+            </h2>
+        </div>
+        </div>
+        <footer-view></footer-view>   
     </div>
 </template>
 <script>

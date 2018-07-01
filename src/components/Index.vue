@@ -82,7 +82,12 @@ export default {
           enabled: true,
         },
       },
-      loop:true
+      loop:true,
+      // slide的切换效果，默认为"slide"（位移切换），可设置为'slide'（普通切换、默认）,"fade"（淡入）"cube"（方块）"coverflow"（3d流）"flip"（3d翻转）。
+      // effect:'fade',
+      // effect:'cube',
+      effect:'coverflow',
+      // effect:'flip',
     
   })      
   },

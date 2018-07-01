@@ -1,11 +1,11 @@
 <template>
     <div>
 	<header-view></header-view>
-        <!--Ãæ°üÐ¼µ¼º½-->
+       <!--é¢åŒ…å±‘å¯¼èˆª-->
         <div class="breadcrumb">
         <div class="container">
             <h2>
-            <a href="">Ê×Ò³</a>&gt;<a href="javascript:;">ÍÅ¶Ó½éÉÜ</a>
+            <a href="">é¦–é¡µ</a>&gt;<a href="javascript:;"></a>
             </h2>
         </div>
         </div>
@@ -35,21 +35,5 @@ export default {
 }
 </script>
 <style scoped>
-   .breadcrumb {
-        height:40px;
-        background: #f1f1f1;
-        border-top:2px solid #ddd;
-        border-bottom: 1px solid #ddd;
-    }
-    .breadcrumb h2 {
-        padding-left: 17px;
-        line-height: 40px;
-        font-size: 15px;
-        font-weight: lighter;
-        color: #666;
-    }
-    .breadcrumb h2 a {
-        padding: 0 10px;
-    }
 </style>
 

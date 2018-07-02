@@ -1,11 +1,11 @@
 <template>
     <div>
 	<header-view></header-view>
-        <!--Ãæ°üÐ¼µ¼º½-->
+        <!--ï¿½ï¿½ï¿½Ð¼ï¿½ï¿½ï¿½ï¿½-->
         <div class="breadcrumb">
         <div class="container">
             <h2>
-            <a href="">Ê×Ò³</a>&gt;<a href="javascript:;">ÍÅ¶Ó½éÉÜ</a>
+            <a href="">ï¿½ï¿½Ò³</a>&gt;<a href="javascript:;">ï¿½Å¶Ó½ï¿½ï¿½ï¿½</a>
             </h2>
         </div>
         </div>

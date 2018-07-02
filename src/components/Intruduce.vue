@@ -1,16 +1,22 @@
 <template>
-    <div>
-	<header-view></header-view>
-        <!--���м����-->
-        <div class="breadcrumb">
+  <div>
+    <header-view></header-view>
+      <!--面包屑导航-->
+      <div class="breadcrumb">
         <div class="container">
             <h2>
-            <a href="">��ҳ</a>&gt;<a href="javascript:;">�Ŷӽ���</a>
+            <a href="">首页</a>&gt;<a href="javascript:;">业务团队</a>
             </h2>
         </div>
+      </div>
+      <div class="main">
+        <div class="title">
+          <span>团队简介</span>
+          <span></span>
         </div>
-        <footer-view></footer-view>   
-    </div>
+      </div>
+    <footer-view></footer-view>   
+  </div>
 </template>
 <script>
 import HeaderView from '@/components/Header.vue'
@@ -35,21 +41,7 @@ export default {
 }
 </script>
 <style scoped>
-   .breadcrumb {
-        height:40px;
-        background: #f1f1f1;
-        border-top:2px solid #ddd;
-        border-bottom: 1px solid #ddd;
-    }
-    .breadcrumb h2 {
-        padding-left: 17px;
-        line-height: 40px;
-        font-size: 15px;
-        font-weight: lighter;
-        color: #666;
-    }
-    .breadcrumb h2 a {
-        padding: 0 10px;
-    }
+.main{width:1200px;margin:0 auto;}
+.main .title{font-size:24px;font-weight:bold;}
 </style>
 

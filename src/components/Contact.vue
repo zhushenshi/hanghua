@@ -49,22 +49,6 @@ export default {
 }
 </script>
 <style scoped>
-    .breadcrumb {
-        height:40px;
-        background: #f1f1f1;
-        border-top:2px solid #ddd;
-        border-bottom: 1px solid #ddd;
-    }
-    .breadcrumb h2 {
-        padding-left: 17px;
-        line-height: 40px;
-        font-size: 15px;
-        font-weight: lighter;
-        color: #666;
-    }
-    .breadcrumb h2 a {
-        padding: 0 10px;
-    }
     .contect {
     padding: 55px 70px 500px;
     color:#666;

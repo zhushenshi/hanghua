@@ -13,6 +13,9 @@
         <div class="title">
           <div>团队简介</div>
           <div class="line"></div>
+          <div class="item">
+              <div class=""></div>
+          </div>
         </div>
       </div>
     <footer-view></footer-view>   
@@ -43,6 +46,6 @@ export default {
 <style scoped>
 .main{width:1200px;margin:0 auto;}
 .main .title{font-size:24px;font-weight:bold;}
-.main .title .line{border-bottom:2px solid #000;width:100px;}
+.main .title .line{border-bottom:5px solid #000;width:100px;margin-top:10px;}
 </style>
 

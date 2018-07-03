@@ -16,7 +16,7 @@
         </div>
 			<div style="border:1px solid #EAEAEA;width:100%;display:flex;">
 				<div>
-					<img src="./avatar.jpg" alt="" />
+					<img src="../assets/images/avatar.jpg" alt="" />
 					<div></div>
 				</div>
 				<div>

@@ -14,6 +14,16 @@
           <span>团队简介</span>
           <span></span>
         </div>
+			<div style="border:1px solid #EAEAEA;width:100%;display:flex;">
+				<div>
+					<img src="./avatar.jpg" alt="" />
+					<div></div>
+				</div>
+				<div>
+					<h2>产品经理 / Kevin Kate</h2>
+					<p>高圆圆，1979年10月5日出生于北京市，中国内地影视女演员、模特。</p>
+				</div>
+		    </div>
       </div>
     <footer-view></footer-view>   
   </div>

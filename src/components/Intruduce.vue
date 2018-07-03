@@ -14,18 +14,18 @@
           <div>团队简介</div>
           <div class="line"></div>
         </div>
-		  <div class="item" style="border:1px solid #EAEAEA;width:100%;display:flex;margin-top:15px;">
-				<div style="position:relative;height:200px;">
-					<img style="height:100%;" src="../assets/images/avatar.jpg" alt="" />
-					<div style="position:absolute;top:0;left:0;width:100%;height:100%;background-color:#FFF;opacity:0.6;">
-					http://5a4ed3e611bcf.t73.qifeiye.com/?page_id=13205
-					</div>
-				</div>
-				<div>
-					<h2><span>----</span>产品经理 / Kevin Kate</h2>
-					<p>高圆圆，1979年10月5日出生于北京市，中国内地影视女演员、模特。</p>
-				</div>
-		  </div>
+        <div class="item">
+          <div class="avatar" style="">
+            <img src="../assets/images/avatar.jpg" alt="" />
+            <div class="cover">
+              <!-- http://5a4ed3e611bcf.t73.qifeiye.com/?page_id=13205 -->
+            </div>
+          </div>
+          <div>
+            <p><span>----</span>产品经理 / Kevin Kate</p>
+            <p>高圆圆，1979年10月5日出生于北京市，中国内地影视女演员、模特。</p>
+          </div>
+        </div>
       </div>
     <footer-view></footer-view>   
   </div>
@@ -56,5 +56,10 @@ export default {
 .main{width:1200px;margin:0 auto;}
 .main .title{font-size:24px;font-weight:bold;}
 .main .title .line{border-bottom:5px solid #000;width:100px;margin-top:10px;}
+.main .item{border:1px solid #EAEAEA;width:100%;display:flex;margin-top:15px;}
+.main .item .avatar{position:relative;height:200px;}
+.main .item .avatar img{height:100%;}
+.main .item .avatar .cover{position:absolute;top:0;left:0;width:100%;height:100%;background-color:#FFF;transition:all .5s linear;opacity:0;}
+.main .item .avatar .cover:hover{opacity:0.6;}
 </style>
 

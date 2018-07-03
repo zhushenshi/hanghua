@@ -21,9 +21,9 @@
               <!-- http://5a4ed3e611bcf.t73.qifeiye.com/?page_id=13205 -->
             </div>
           </div>
-          <div>
-            <p><span>----</span>产品经理 / Kevin Kate</p>
-            <p>高圆圆，1979年10月5日出生于北京市，中国内地影视女演员、模特。</p>
+          <div class="text">
+            <div class="name"><span>----</span>产品经理 / Kevin Kate</div>
+            <div class="intruduce">高圆圆，1979年10月5日出生于北京市，中国内地影视女演员、模特。</div>
           </div>
         </div>
       </div>
@@ -61,5 +61,7 @@ export default {
 .main .item .avatar img{height:100%;}
 .main .item .avatar .cover{position:absolute;top:0;left:0;width:100%;height:100%;background-color:#FFF;transition:all .5s linear;opacity:0;}
 .main .item .avatar .cover:hover{opacity:0.6;}
+.main .item .text{}
+.main .item .text .name{height:50%;border:1px solid red;padding-top:50px;box-sizing: border-box;font-size:16px;font-weight:bold;}
 </style>
 

@@ -14,16 +14,18 @@
           <span>团队简介</span>
           <span></span>
         </div>
-			<div style="border:1px solid #EAEAEA;width:100%;display:flex;">
-				<div>
-					<img src="../assets/images/avatar.jpg" alt="" />
-					<div></div>
+		  <div style="border:1px solid #EAEAEA;width:100%;display:flex;">
+				<div style="position:relative;">
+					<img src="./avatar.jpg" alt="" />
+					<div style="position:absolute;top:0;left:0;width:100%;height:100%;background-color:#FFF;opacity:0.6;">
+					http://5a4ed3e611bcf.t73.qifeiye.com/?page_id=13205
+					</div>
 				</div>
 				<div>
-					<h2>产品经理 / Kevin Kate</h2>
+					<h2><span>这里是一条横线</span>产品经理 / Kevin Kate</h2>
 					<p>高圆圆，1979年10月5日出生于北京市，中国内地影视女演员、模特。</p>
 				</div>
-		    </div>
+		  </div>
       </div>
     <footer-view></footer-view>   
   </div>

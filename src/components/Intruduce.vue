@@ -13,11 +13,8 @@
         <div class="title">
           <div>团队简介</div>
           <div class="line"></div>
-          <div class="item">
-              <div class=""></div>
-          </div>
         </div>
-		  <div style="border:1px solid #EAEAEA;width:100%;display:flex;margin-top:15px;">
+		  <div class="item" style="border:1px solid #EAEAEA;width:100%;display:flex;margin-top:15px;">
 				<div style="position:relative;height:200px;">
 					<img style="height:100%;" src="../assets/images/avatar.jpg" alt="" />
 					<div style="position:absolute;top:0;left:0;width:100%;height:100%;background-color:#FFF;opacity:0.6;">

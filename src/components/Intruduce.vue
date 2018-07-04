@@ -61,7 +61,8 @@ export default {
 .main .item .avatar img{height:100%;}
 .main .item .avatar .cover{position:absolute;top:0;left:0;width:100%;height:100%;background-color:#FFF;transition:all .5s linear;opacity:0;}
 .main .item .avatar .cover:hover{opacity:0.6;}
-.main .item .text{}
-.main .item .text .name{height:50%;border:1px solid red;padding-top:50px;box-sizing: border-box;font-size:16px;font-weight:bold;}
+.main .item .text{margin-left:20px;}
+.main .item .text .name{height:50%;padding-top:50px;box-sizing: border-box;font-size:20px;}
+.main .item .text .intruduce{font-size:16px;color:#999999;}
 </style>
 

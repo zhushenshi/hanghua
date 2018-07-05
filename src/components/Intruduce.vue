@@ -15,7 +15,7 @@
           <div class="line"></div>
         </div>
         <div class="item">
-          <div class="avatar" style="">
+          <div class="avatar">
             <img src="../assets/images/avatar.jpg" alt="" />
             <div class="cover">
               <!-- http://5a4ed3e611bcf.t73.qifeiye.com/?page_id=13205 -->
@@ -55,7 +55,7 @@ export default {
 <style scoped>
 .main{width:1200px;margin:0 auto;}
 .main .title{font-size:24px;font-weight:bold;}
-.main .title .line{border-bottom:5px solid #000;width:100px;margin-top:10px;}
+.main .title .line{border-bottom:4px solid #666;width:60px;margin-top:10px;}
 .main .item{border:1px solid #EAEAEA;width:100%;display:flex;margin-top:15px;}
 .main .item .avatar{position:relative;height:200px;}
 .main .item .avatar img{height:100%;}

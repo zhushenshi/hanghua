@@ -4,24 +4,24 @@
     <ul>
       <li>
         <h3>走进航华</h3>
-        <a href="">公司简介</a><router-link to="/about">公司简介</router-link>
-        <a href="">航华精神</a><router-link to="/about">航海精神</router-link>
-        <a href="">品牌历程</a><router-link to="/about">品牌历程</router-link>
+          <router-link to="/about">公司简介</router-link>
+          <router-link to="/about">航华精神</router-link>
+          <router-link to="/about">品牌历程</router-link>
       </li>
       <li>
         <h3>成为合作伙伴</h3>
-        <a href="">成为核心供应商</a>
-        <a href="">电商经销入口</a>
-        <a href="">成为线下代理商</a>
+        <a href="jacvscript:;">成为核心供应商</a>
+        <a href="jacvscript:;">电商经销入口</a>
+        <a href="jacvscript:;">成为线下代理商</a>
       </li>
       <li>
         <h3>售后服务</h3>
-        <a href="">在线报修</a>
-        <a href="">售后政策</a>
-        <a href="">下载中心</a>
+        <router-link to="/contact">电话报修</router-link>
+        <router-link to="/contact">售后政策</router-link>
+        <router-link to="/contact">意见反馈</router-link>
       </li>
       <li>
-        <h3>加入hh</h3>
+        <h3>加入航华</h3>
         <a href="jacvscript:;">招聘贤才</a>
         <a href="jacvscript:;">联系我们</a>
         <a href="jacvscript:;">网站地图</a>
@@ -35,7 +35,7 @@
     </div>
   </div>
   <div class="copyright">
-    Copyright © 2014 Apple Inc 保留所有权利。使用条款|客户隐私政策        © 安徽航华科技有限公司  京公安网安备 11010500896 | 京ICP备 12050755
+    Copyright © 2018 Apple Inc 保留所有权利。使用条款|客户隐私政策        © 安徽航华科技有限公司  京公安网安备 11010500896 | 京ICP备 12050755
   </div>
 </div>
 </template>
@@ -43,11 +43,13 @@
 .footer {
     margin-top: 60px;
     background: #f1f1f1;
-    border-top:1px solid #ddd;
+    
 }
 .f_con {
+    margin-top:30px;
     margin-top: 12px;
     padding-bottom: 12px;
+    border-top:1px solid #ddd;
 }
 .f_con ul li {
     float: left;
@@ -55,16 +57,18 @@
 }
 .f_con ul li h3 {
     font-size: 14px;
-    color:#666;
+    color:#000;
     font-weight: lighter;
     line-height: 28px;
 }
 .f_con ul li a {
     display: block;
     color: #999;
+    line-height:25px;
+    font-size:14px;
 }
 .f_con ul li a:hover {
-    color:#f63;
+    color:#000;
 }
 .f_con>span {
     float: left;
@@ -90,7 +94,6 @@
     margin: 8px auto 0;
     width: 120px;
     height: 26px;
-    background: #003279;
     color:#fff;
     font-size: 14px;
     line-height: 26px;

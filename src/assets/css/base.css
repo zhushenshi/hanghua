@@ -43,69 +43,7 @@ a:hover {
     height: 100%;
 }
 
-/*footer*/
-.footer {
-    margin-top: 60px;
-    background: #f1f1f1;
-    border-top:1px solid #ddd;
-}
-.f_con {
-    margin-top: 12px;
-    padding-bottom: 12px;
-}
-.f_con ul li {
-    float: left;
-    margin-right: 80px;
-}
-.f_con ul li h3 {
-    font-size: 14px;
-    color:#666;
-    font-weight: lighter;
-    line-height: 28px;
-}
-.f_con ul li a {
-    display: block;
-    color: #999;
-}
-.f_con ul li a:hover {
-    color:#f63;
-}
-.f_con>span {
-    float: left;
-    width: 100px;
-    height: 100px;
-    background: url(../../assets/images/qrcode.png) 0 0 no-repeat;
-}
-.kefu {
-    float: right;
-    margin-right: 26px;
-    text-align: center;
-}
-.kefu>h4 {
-    font-size: 24px;
-    font-weight: lighter;
-    line-height: 36px;
-}
-.kefu>span {
-    color:#999;
-}
-.kefu>a {
-    display: block;
-    margin: 8px auto 0;
-    width: 120px;
-    height: 26px;
-    background: #003279;
-    color:#fff;
-    font-size: 14px;
-    line-height: 26px;
-}
 
-.copyright {
-    border-top:1px solid #ddd;
-    line-height: 65px;
-    text-align: center;
-    color:#999;
-}
 /* 面包屑导航 */
 .breadcrumb {
     height:40px;

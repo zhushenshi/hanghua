@@ -16,7 +16,7 @@
       </li>
       <li>
         <h3>售后服务</h3>
-        <router-link to="/contact">电话报修</router-link>
+        <router-link to="/contact">电话售后</router-link>
         <router-link to="/contact">售后政策</router-link>
         <router-link to="/contact">意见反馈</router-link>
       </li>
@@ -30,7 +30,7 @@
     <span class="qrcode"></span>
     <div class="kefu">
       <h4>4000-585-116</h4>
-      <span>周一至周日9:00-17:30</span>
+      <span>周一至周五9:00-17:30</span>
       <a href="#">金 牌 客 服</a>
     </div>
   </div>
@@ -39,6 +39,8 @@
   </div>
 </div>
 </template>
+
+
 <style scoped>
 .footer {
     margin-top: 60px;

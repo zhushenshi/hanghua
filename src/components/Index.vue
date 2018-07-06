@@ -25,7 +25,7 @@
         <div class="ind_about">
           <h2 class="title"><a href="#" class="more">more</a>关于航华</h2>
           <p>安徽航华电子科技有限公司自诞生起一直致力于为客户提供提供热水系统解决方案。  
-          	<a href="#">查看更多</a></p>
+          	<a href="#/about">查看更多</a></p>
         </div>
         <div class="ind_news">
           <h2 class="title"><a href="#" class="more">more</a>公司动态</h2>

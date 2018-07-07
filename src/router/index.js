@@ -44,10 +44,5 @@ export default new Router({
       name: 'Header',
       component: Header
     },
-    {
-      path: '/footer',
-      name: 'Footer',
-      component: Footer
-    },
   ]
 })

@@ -39,10 +39,5 @@ export default new Router({
       name: 'Intruduce',
       component: Intruduce
     },
-    {
-      path: '/header',
-      name: 'Header',
-      component: Header
-    },
   ]
 })

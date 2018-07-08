@@ -38,8 +38,8 @@ export default {
   name:'About',
   data () {
     return {
-      msg: '',
-      group:[{name:'',pic:''},]
+      msg: 'hello',
+      group:[{name:'高圆圆',pic:''},]
     }
   },
   created (){},

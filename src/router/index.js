@@ -8,8 +8,6 @@ import Index from '@/components/Index'
 import About from '@/components/About'
 import Intruduce from '@/components/Intruduce'
 
-
-
 Vue.use(Router)
 
 export default new Router({

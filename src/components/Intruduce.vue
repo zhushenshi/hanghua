@@ -19,6 +19,7 @@
             <img src="../assets/images/avatar.jpg" alt="" />
             <div class="cover">
               <!-- http://5a4ed3e611bcf.t73.qifeiye.com/?page_id=13205 -->
+	      <img src="../assets/images/big-black-plus.png" alt="" />
             </div>
           </div>
           <div class="text">

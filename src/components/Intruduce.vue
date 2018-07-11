@@ -19,7 +19,7 @@
             <img src="../assets/images/avatar.jpg" alt="" />
             <div class="cover">
               <!-- http://5a4ed3e611bcf.t73.qifeiye.com/?page_id=13205 -->
-	      <img src="../assets/images/big-black-plus.png" alt="" />
+				<img src="../assets/images/big-black-plus.png" alt="" />
             </div>
           </div>
           <div class="text">
@@ -60,9 +60,9 @@ export default {
 .main .item{border:1px solid #EAEAEA;width:100%;display:flex;margin-top:15px;}
 .main .item .avatar{position:relative;height:200px;}
 .main .item .avatar img{height:100%;}
-.main .item .avatar .cover{position:absolute;top:0;left:0;width:100%;height:100%;background-color:#FFF;transition:all .5s linear;opacity:0;}
-.main .item .avatar .cover:hover{opacity:0.6;}
-.main .item .avatar .cover img{width:100%;height:100%;}
+.main .item .avatar .cover{position:absolute;top:0;left:0;width:100%;height:100%;background-color:#FFF;transition:all .5s linear;opacity:0;text-align:center;}
+.main .item .avatar .cover:hover{opacity:0.6;padding-top:30%;}
+.main .item .avatar .cover img{height:40%;}
 .main .item .text{margin-left:20px;}
 .main .item .text .name{height:50%;padding-top:50px;box-sizing: border-box;font-size:20px;}
 .main .item .text .intruduce{font-size:16px;color:#999999;}

@@ -28,7 +28,7 @@
           </div>
         </div>
       </div>
-	  <div class="details">
+	  <div class="details" v-show="isShow">
 		<img src="../assets/images/big-black-plus.png" alt="" />
 		<div>高圆圆，1979年10月5日出生于北京市，中国内地影视女演员、模特。</div>
 	  </div>
@@ -44,7 +44,8 @@ export default {
   data () {
     return {
       msg: 'hello',
-      group:[{name:'高圆圆',pic:'',details:"高圆圆，1979年10月5日出生于北京市，中国内地影视女演员、模特。"},]
+      group:[{name:'高圆圆',pic:'',details:"高圆圆，1979年10月5日出生于北京市，中国内地影视女演员、模特。"},],
+	  isShow:"false"
     }
   },
   created (){},

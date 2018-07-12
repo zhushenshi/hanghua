@@ -28,6 +28,9 @@
           </div>
         </div>
       </div>
+	  <div class="details">
+		<img src="../assets/images/big-black-plus.png" alt="" />
+	  </div>
     <footer-view></footer-view>   
   </div>
 </template>
@@ -60,11 +63,12 @@ export default {
 .main .item{border:1px solid #EAEAEA;width:100%;display:flex;margin-top:15px;}
 .main .item .avatar{position:relative;height:200px;}
 .main .item .avatar img{height:100%;}
-.main .item .avatar .cover{position:absolute;top:0;left:0;width:100%;height:100%;background-color:#FFF;transition:all .5s linear;opacity:0;text-align:center;}
+.main .item .avatar .cover{box-sizing:border-box;position:absolute;top:0;left:0;width:100%;height:100%;background-color:#FFF;transition:all .5s linear;opacity:0;text-align:center;}
 .main .item .avatar .cover:hover{opacity:0.6;padding-top:30%;}
 .main .item .avatar .cover img{height:40%;}
 .main .item .text{margin-left:20px;}
 .main .item .text .name{height:50%;padding-top:50px;box-sizing: border-box;font-size:20px;}
 .main .item .text .intruduce{font-size:16px;color:#999999;}
+.details{width:80%;height:80%;position:fixed;}
 </style>
 

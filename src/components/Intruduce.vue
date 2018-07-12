@@ -30,6 +30,7 @@
       </div>
 	  <div class="details">
 		<img src="../assets/images/big-black-plus.png" alt="" />
+		<div>高圆圆，1979年10月5日出生于北京市，中国内地影视女演员、模特。</div>
 	  </div>
     <footer-view></footer-view>   
   </div>
@@ -43,7 +44,7 @@ export default {
   data () {
     return {
       msg: 'hello',
-      group:[{name:'高圆圆',pic:''},]
+      group:[{name:'高圆圆',pic:'',details:"高圆圆，1979年10月5日出生于北京市，中国内地影视女演员、模特。"},]
     }
   },
   created (){},
@@ -70,5 +71,7 @@ export default {
 .main .item .text .name{height:50%;padding-top:50px;box-sizing: border-box;font-size:20px;}
 .main .item .text .intruduce{font-size:16px;color:#999999;}
 .details{width:80%;height:80%;position:fixed;}
+.details img{width:100%;height:100%;}
+
 </style>
 

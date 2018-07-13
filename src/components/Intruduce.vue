@@ -22,7 +22,7 @@
 				<img src="../assets/images/big-black-plus.png" alt="" />
             </div>
           </div>
-          <div class="text" @click="">
+          <div class="text" @click="changeShow()">
             <div class="name"><span>----</span>产品经理 / Kevin Kate</div>
             <div class="intruduce">高圆圆，1979年10月5日出生于北京市，中国内地影视女演员、模特。</div>
           </div>
@@ -45,12 +45,14 @@ export default {
     return {
       msg: 'hello',
       group:[{name:'高圆圆',pic:'',details:"高圆圆，1979年10月5日出生于北京市，中国内地影视女演员、模特。"},],
-	  isShow:"false"
+	 isShow:false
     }
   },
   created (){},
   methods: {
-    
+    changeShow(){
+	this.isShow=this.isShow?true:false;
+    },
   },
   components: {
     HeaderView,

@@ -28,8 +28,8 @@
           </div>
         </div>
       </div>
-	  <div class="details" v-show="isShow">
-      <div class=""><img src="../assets/images/big-black-plus.png" alt="" /></div>
+	  <div class="detail" v-show="isShow">
+      <div class=""><img src="../assets/images/avatar.jpg" alt="" /></div>
       <div class="details">高圆圆，1979年10月5日出生于北京市，中国内地影视女演员、模特。</div>
 	  </div>
     <footer-view></footer-view>   
@@ -51,7 +51,7 @@ export default {
   created (){},
   methods: {
     changeShow(){
-  this.isShow=this.isShow?true:false;
+  this.isShow=this.isShow?false:true;
   console.log(this.isShow)
     },
   },
@@ -76,7 +76,7 @@ export default {
 .main .item .text{margin-left:20px;}
 .main .item .text .name{height:50%;padding-top:50px;box-sizing: border-box;font-size:20px;}
 .main .item .text .intruduce{font-size:16px;color:#999999;}
-.details{width:80%;height:80%;position:fixed;}
+.detail{width:80%;height:80%;position:absolute;top:0;left:0;right:0;margin:auto;}
 .details img{width:100%;height:100%;}
 
 </style>

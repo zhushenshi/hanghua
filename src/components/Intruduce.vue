@@ -14,23 +14,23 @@
           <div>团队简介</div>
           <div class="line"></div>
         </div>
-        <div class="item">
+        <div class="item" @click="changeShow()">
           <div class="avatar">
             <img src="../assets/images/avatar.jpg" alt="" />
             <div class="cover">
               <!-- http://5a4ed3e611bcf.t73.qifeiye.com/?page_id=13205 -->
-				<img src="../assets/images/big-black-plus.png" alt="" />
+				      <div class="imgBox"><img src="../assets/images/big-black-plus.png" alt="" /></div>
             </div>
           </div>
-          <div class="text" @click="changeShow()">
+          <div class="text">
             <div class="name"><span>----</span>产品经理 / Kevin Kate</div>
             <div class="intruduce">高圆圆，1979年10月5日出生于北京市，中国内地影视女演员、模特。</div>
           </div>
         </div>
       </div>
 	  <div class="details" v-show="isShow">
-		<div class="imgBox"><img src="../assets/images/big-black-plus.png" alt="" /></div>
-		<div class="details">高圆圆，1979年10月5日出生于北京市，中国内地影视女演员、模特。</div>
+      <div class=""><img src="../assets/images/big-black-plus.png" alt="" /></div>
+      <div class="details">高圆圆，1979年10月5日出生于北京市，中国内地影视女演员、模特。</div>
 	  </div>
     <footer-view></footer-view>   
   </div>
@@ -51,7 +51,8 @@ export default {
   created (){},
   methods: {
     changeShow(){
-	this.isShow=this.isShow?true:false;
+  this.isShow=this.isShow?true:false;
+  console.log(this.isShow)
     },
   },
   components: {
@@ -67,8 +68,10 @@ export default {
 .main .item{border:1px solid #EAEAEA;width:100%;display:flex;margin-top:15px;}
 .main .item .avatar{position:relative;height:200px;}
 .main .item .avatar img{height:100%;}
-.main .item .avatar .cover{box-sizing:border-box;position:absolute;top:0;left:0;width:100%;height:100%;background-color:#FFF;transition:all .5s linear;opacity:0;text-align:center;}
-.main .item .avatar .cover:hover{opacity:0.6;padding-top:30%;}
+.main .item .avatar .cover{box-sizing:border-box;position:absolute;top:0;left:0;width:100%;height:100%;background-color:#FFF;opacity:0;text-align:center;}
+.main .item .avatar .cover .imgBox{width:100%;position:absolute;top:0;transition:all .5s linear;}
+.main .item .avatar .cover:hover{opacity:0.6;}
+.main .item .avatar .cover:hover .imgBox{top:50%;transform:translateY(-50%);}
 .main .item .avatar .cover img{height:40%;}
 .main .item .text{margin-left:20px;}
 .main .item .text .name{height:50%;padding-top:50px;box-sizing: border-box;font-size:20px;}

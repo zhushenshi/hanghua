@@ -22,15 +22,15 @@
 				<img src="../assets/images/big-black-plus.png" alt="" />
             </div>
           </div>
-          <div class="text">
+          <div class="text" @click="">
             <div class="name"><span>----</span>产品经理 / Kevin Kate</div>
             <div class="intruduce">高圆圆，1979年10月5日出生于北京市，中国内地影视女演员、模特。</div>
           </div>
         </div>
       </div>
 	  <div class="details" v-show="isShow">
-		<img src="../assets/images/big-black-plus.png" alt="" />
-		<div>高圆圆，1979年10月5日出生于北京市，中国内地影视女演员、模特。</div>
+		<div class="imgBox"><img src="../assets/images/big-black-plus.png" alt="" /></div>
+		<div class="details">高圆圆，1979年10月5日出生于北京市，中国内地影视女演员、模特。</div>
 	  </div>
     <footer-view></footer-view>   
   </div>

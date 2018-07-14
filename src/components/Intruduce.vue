@@ -77,8 +77,8 @@ export default {
 .main .item .text{margin-left:20px;}
 .main .item .text .name{height:50%;padding-top:50px;box-sizing: border-box;font-size:20px;}
 .main .item .text .intruduce{font-size:16px;color:#999999;}
-.detail{width:80%;height:80%;position:absolute;top:0;left:0;right:0;margin:auto;}
-.details img{width:100%;height:100%;padding-left:20px;}
+.detail{width:80%;height:80%;position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;}
+.details img{width:100%;padding-left:20px;}
 
 </style>
 

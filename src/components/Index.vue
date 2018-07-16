@@ -31,9 +31,6 @@
           <h2 class="title"><a href="#" class="more">more</a>公司动态</h2>
           <ul>
             <li><span>2016-02-21</span><a href="">空气净化器要逆天？ “玫瑰金”“土豪金”齐上阵</a></li>
-            <li><span>2016-02-21</span><a href="">********************</a></li>
-            <li><span>2016-02-21</span><a href="">************************</a></li>
-            <li><span>2016-02-21</span><a href="">********************</a></li>
           </ul>
         </div>
       </div>

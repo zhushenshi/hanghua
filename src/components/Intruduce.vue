@@ -14,7 +14,7 @@
           <div>团队简介</div>
           <div class="line"></div>
         </div>
-        <div class="item" @click="changeShow()">
+        <div class="item" @click="showDetail()">
           <div class="avatar">
             <img src="../assets/images/avatar.jpg" alt="" />
             <div class="cover">
@@ -64,7 +64,7 @@ export default {
   },
   created (){},
   methods: {
-    changeShow(){
+    showDetail(){
   this.isShow=this.isShow?false:true;
   console.log(this.isShow)
     },

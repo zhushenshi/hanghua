@@ -23,19 +23,23 @@
             </div>
           </div>
           <div class="text">
-            <div class="name"><span>----</span>产品经理 / Kevin Kate</div>
+            <div class="name">产品经理 / Kevin Kate</div>
             <div class="intruduce">高圆圆，1979年10月5日出生于北京市，中国内地影视女演员、模特。</div>
           </div>
         </div>
       </div>
-	  <div class="detail" v-show="isShow">
-      <div class="box">
-        <div class="close" @click="showDetail()"><span class="iconfont icon-close2"></span></div>
-          <!-- <div class=""><img src="../assets/images/avatar.jpg" alt="" /></div> -->
-          <div class="details">高圆圆</div>
-          <div class="details">高圆圆，1979年10月5日出生于北京市，中国内地影视女演员、模特。</div>
+      <transition name="fade">
+        <div class="detail" v-show="isShow">
+          <div class="box">
+            <div class="close" @click="showDetail()"><span class="iconfont icon-close2"></span></div>
+              <!-- <div class=""><img src="../assets/images/avatar.jpg" alt="" /></div> -->
+            <div class="details">
+              <div>高圆圆</div>
+              <div>高圆圆，1979年10月5日出生于北京市，中国内地影视女演员、模特。</div>
+            </div>
+          </div>
         </div>
-	  </div>
+      </transition>
     <footer-view></footer-view>   
   </div>
 </template>
@@ -83,12 +87,18 @@ export default {
 .main .item .avatar .cover:hover .imgBox{top:50%;transform:translateY(-50%);}
 .main .item .avatar .cover img{height:40%;}
 .main .item .text{margin-left:20px;}
-.main .item .text .name{height:50%;padding-top:50px;box-sizing: border-box;font-size:20px;}
+.main .item .text .name{height:50%;padding-top:50px;box-sizing: border-box;font-size:20px;position:relative;}
 .main .item .text .intruduce{font-size:16px;color:#999999;}
-.detail{width:100%;height:100%;position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;border: 1px solid red;background-color:rgba(0, 0, 0, 0.6);text-align:center;color:#fff;}
-.box{width:80%;height:80%;position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;border: 1px solid red;background-image: url('../assets/images/avatar.jpg');background-size:cover;background-position:center center;}
+.detail{width:100%;height:100%;position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;background-color:rgba(0, 0, 0, 0.6);text-align:center;color:#ccc;}
+.box{width:80%;height:80%;position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;background-image: url('../assets/images/avatar.jpg');background-size:cover;background-position:center center;}
 .close{text-align:right;position:absolute;right:10px;top:10px;}
-.details img{width:100%;padding-left:20px;}
+.details{width:100%;position:absolute;bottom:0;background-color:rgba(0, 0, 0, 0.8);line-height:20px;padding: 15px 15px;;text-align:left;box-sizing: border-box;}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
 
 </style>
 

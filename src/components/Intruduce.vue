@@ -29,9 +29,12 @@
         </div>
       </div>
 	  <div class="detail" v-show="isShow">
-      <div class=""><img src="../assets/images/avatar.jpg" alt="" /></div>
-      <div class="details">高圆圆</div>
-      <div class="details">高圆圆，1979年10月5日出生于北京市，中国内地影视女演员、模特。</div>
+      <div class="box">
+        <div class="close" @click="showDetail()"><span class="iconfont icon-close2"></span></div>
+          <!-- <div class=""><img src="../assets/images/avatar.jpg" alt="" /></div> -->
+          <div class="details">高圆圆</div>
+          <div class="details">高圆圆，1979年10月5日出生于北京市，中国内地影视女演员、模特。</div>
+        </div>
 	  </div>
     <footer-view></footer-view>   
   </div>
@@ -39,6 +42,7 @@
 <script>
 import HeaderView from '@/components/Header.vue'
 import FooterView from '@/components/Footer.vue'
+import('../fonts/icon-font/iconfont.css')
 
 export default {
   name:'About',
@@ -50,14 +54,6 @@ export default {
       pic:'',
       details:"高圆圆，1979年10月5日出生于北京市，中国内地影视女演员、模特。"
       },
-      name:'高圆圆',
-      pic:'',
-      details:"高圆圆，1979年10月5日出生于北京市，中国内地影视女演员、模特。"
-      }，
-      name:'高圆圆',
-      pic:'',
-      details:"高圆圆，1979年10月5日出生于北京市，中国内地影视女演员、模特。"
-      }，
       ],
 	 isShow:false
     }
@@ -65,8 +61,7 @@ export default {
   created (){},
   methods: {
     showDetail(){
-  this.isShow=this.isShow?false:true;
-  console.log(this.isShow)
+      this.isShow=this.isShow?false:true;
     },
   },
   components: {
@@ -90,7 +85,9 @@ export default {
 .main .item .text{margin-left:20px;}
 .main .item .text .name{height:50%;padding-top:50px;box-sizing: border-box;font-size:20px;}
 .main .item .text .intruduce{font-size:16px;color:#999999;}
-.detail{width:80%;height:80%;position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;}
+.detail{width:100%;height:100%;position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;border: 1px solid red;background-color:rgba(0, 0, 0, 0.6);text-align:center;color:#fff;}
+.box{width:80%;height:80%;position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;border: 1px solid red;background-image: url('../assets/images/avatar.jpg');background-size:cover;background-position:center center;}
+.close{text-align:right;position:absolute;right:10px;top:10px;}
 .details img{width:100%;padding-left:20px;}
 
 </style>

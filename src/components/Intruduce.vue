@@ -14,28 +14,28 @@
           <div>团队简介</div>
           <div class="line"></div>
         </div>
-        <div class="item" @click="showDetail()">
+        <div class="item" @click="showDetail(index)" v-for="(item,index) in group" :key="index">
           <div class="avatar">
-            <img src="../assets/images/avatar.jpg" alt="" />
+            <img :src="item.pic" alt="" />
             <div class="cover">
               <!-- http://5a4ed3e611bcf.t73.qifeiye.com/?page_id=13205 -->
 				      <div class="imgBox"><img src="../assets/images/big-black-plus.png" alt="" /></div>
             </div>
           </div>
           <div class="text">
-            <div class="name">产品经理 / Kevin Kate</div>
-            <div class="intruduce">高圆圆，1979年10月5日出生于北京市，中国内地影视女演员、模特。</div>
+            <div class="name">{{item.name}}</div>
+            <div class="intruduce">{{item.details}}</div>
           </div>
         </div>
       </div>
       <transition name="fade">
         <div class="detail" v-show="isShow">
-          <div class="box">
+          <div class="box" :style="{backgroundImage: 'url('+details.pic+')'}">
             <div class="close" @click="showDetail()"><span class="iconfont icon-close2"></span></div>
               <!-- <div class=""><img src="../assets/images/avatar.jpg" alt="" /></div> -->
             <div class="details">
-              <div>高圆圆</div>
-              <div>高圆圆，1979年10月5日出生于北京市，中国内地影视女演员、模特。</div>
+              <div>{{details.name}}</div>
+              <div>{{details.details}}</div>
             </div>
           </div>
         </div>
@@ -55,17 +55,34 @@ export default {
       msg: 'hello',
       group:[
       {name:'高圆圆',
-      pic:'',
+      pic:require('../assets/images/avatar.jpg'),
+      details:"高圆圆，1979年10月5日出生于北京市，中国内地影视女演员、模特。"
+      },
+      {name:'高圆圆1',
+      pic:require('../assets/images/avatar.jpg'),
+      details:"高圆圆，1979年10月5日出生于北京市，中国内地影视女演员、模特。"
+      },
+      {name:'高圆圆2',
+      pic:require('../assets/images/avatar.jpg'),
+      details:"高圆圆，1979年10月5日出生于北京市，中国内地影视女演员、模特。"
+      },
+      {name:'高圆圆3',
+      pic:require('../assets/images/avatar.jpg'),
       details:"高圆圆，1979年10月5日出生于北京市，中国内地影视女演员、模特。"
       },
       ],
+      details:{
+
+      },
 	 isShow:false
     }
   },
   created (){},
   methods: {
-    showDetail(){
+    showDetail(index){
       this.isShow=this.isShow?false:true;
+      this.details=Object.assign({}, this.details,this.group[index])
+
     },
   },
   components: {
@@ -77,8 +94,8 @@ export default {
 <style scoped>
 .main{width:1200px;margin:0 auto;}
 .main .title{font-size:24px;font-weight:bold;}
-.main .title .line{border-bottom:4px solid #666;width:60px;margin-top:10px;}
-.main .item{border:1px solid #EAEAEA;width:100%;display:flex;margin-top:15px;}
+.main .title .line{border-bottom:4px solid #666;width:60px;margin-top:10px;margin-bottom:20px;}
+.main .item{border:1px solid #EAEAEA;width:100%;display:flex;margin-top:18px;}
 .main .item .avatar{position:relative;height:200px;}
 .main .item .avatar img{height:100%;}
 .main .item .avatar .cover{box-sizing:border-box;position:absolute;top:0;left:0;width:100%;height:100%;background-color:#FFF;opacity:0;text-align:center;}
@@ -90,7 +107,7 @@ export default {
 .main .item .text .name{height:50%;padding-top:50px;box-sizing: border-box;font-size:20px;position:relative;}
 .main .item .text .intruduce{font-size:16px;color:#999999;}
 .detail{width:100%;height:100%;position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;background-color:rgba(0, 0, 0, 0.6);text-align:center;color:#ccc;}
-.box{width:80%;height:80%;position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;background-image: url('../assets/images/avatar.jpg');background-size:cover;background-position:center center;}
+.box{width:80%;height:80%;position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;background-size:cover;background-position:center center;}
 .close{text-align:right;position:absolute;right:10px;top:10px;}
 .details{width:100%;position:absolute;bottom:0;background-color:rgba(0, 0, 0, 0.8);line-height:20px;padding: 15px 15px;;text-align:left;box-sizing: border-box;}
 .fade-enter-active, .fade-leave-active {

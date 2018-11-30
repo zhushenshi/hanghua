@@ -6,7 +6,7 @@
 <div class="breadcrumb">
   <div class="container">
     <h2>
-      <a href="">首页</a>&gt;<router-link to="contac">联系我们</router-link>
+      <a href="">首页</a>&gt;<router-link to="contact">联系我们</router-link>
     </h2>
   </div>
 </div>

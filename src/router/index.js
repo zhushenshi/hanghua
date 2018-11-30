@@ -7,6 +7,8 @@ import Contact from '@/components/Contact'
 import Index from '@/components/Index'
 import About from '@/components/About'
 import Intruduce from '@/components/Intruduce'
+import New from '@/components/New'
+import NewsDetail from '@/components/NewsDetail'
 
 Vue.use(Router)
 
@@ -36,6 +38,16 @@ export default new Router({
       path: '/introduce',
       name: 'Intruduce',
       component: Intruduce
+    },
+    {
+      path: '/new',
+      name: 'New',
+      component: New
+    },
+    {
+      path: '/newsDetails',
+      name: 'NewsDetail',
+      component: NewsDetail
     },
   ]
 })

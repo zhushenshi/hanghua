@@ -25,6 +25,9 @@ a:hover {
     color:#f60;
     text-decoration: none;
 }
+div{
+    box-sizing: border-box;
+}
 .clearfloat:after {
     content: " ";
     display: table;
@@ -52,7 +55,7 @@ a:hover {
     border-bottom: 1px solid #ddd;
 }
 .breadcrumb h2 {
-    padding-left: 17px;
+    padding-left: 7px;
     line-height: 40px;
     font-size: 15px;
     font-weight: lighter;

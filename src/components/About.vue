@@ -10,7 +10,7 @@
         </div>
         </div>
         <!--页面主体-->
-        <div class="main container">
+        <div class=" container" style="padding-left:20px;">
         <div class="about">
             <div class="title">公司简介</div>
             <div class="about_img"><img src="../assets/images/about.jpg" alt=""/></div>
@@ -76,12 +76,13 @@ export default {
 }
 .about_img {
     margin-top:30px;
+    padding-left:10px;
 }
 .about_img img {
     max-width: 100%;
 }
 .about p {
-    /* padding: 0 40px; */
+    padding: 0 20px;
     font-size: 14px;
     /* text-indent: 28px; */
     color:#888888;

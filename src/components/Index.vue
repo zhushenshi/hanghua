@@ -1,17 +1,17 @@
 <template>
   <div>
     <header-view></header-view>
-          <div class="swiper-container">
-              <div class="swiper-wrapper">
-                  <div class="swiper-slide" v-for="(img,index) in imgUrls" :key='index'><img :src="img.src" alt="" style="width:100%;"></div>
-              </div>
-              <!-- 如果需要分页器 -->
-              <div class="swiper-pagination"></div>
-              
-              <!-- 如果需要导航按钮 -->
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-button-next"></div>
-          </div>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" v-for="(img,index) in imgUrls" :key='index'><img :src="img.src" alt="" style="width:100%;"></div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+        
+        <!-- 如果需要导航按钮 -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
     <div class="main container">
       <div class="ind_con1">
         <h2 class="title"><a href="#" class="more">more</a>航华服务</h2>
@@ -103,6 +103,7 @@ export default {
 <style scoped>
 .swiper-container {
     width: 100%;
+    min-width: 1200px;
 }  
 .title {
     font-size: 16px;

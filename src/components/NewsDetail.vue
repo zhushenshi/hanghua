@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="container">
         <header-view></header-view>
         <!--面包屑导航-->
         <div class="breadcrumb">

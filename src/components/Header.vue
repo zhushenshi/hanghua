@@ -9,15 +9,12 @@
 						<li><router-link to="about">关于航华</router-link></li>
 						<li><router-link to="new">公司动态</router-link></li>
 						<li class="nav_more">
-						<router-link to="/product">工程案例<span class="icon_list"><i class="iconfont icon-ai-arrow-down"></i></span></router-link>
+						<router-link to="/product">解决方案<span class="icon_list"><i class="iconfont icon-ai-arrow-down"></i></span></router-link>
 						<div class="nav_dropdown">
-							<router-link to="/product">工程案例1</router-link>		
-							<router-link to="/product">工程案例1</router-link>		
-							<router-link to="/product">工程案例1</router-link>		
-							<router-link to="/product">工程案例1</router-link>		
-							<router-link to="/product">工程案例1</router-link>		
-							<router-link to="/product">工程案例1</router-link>		
-							<router-link to="/product">工程案例1</router-link>		
+							<router-link to="/product">学校工程</router-link>		
+							<router-link to="/product">医院工程</router-link>		
+							<router-link to="/product">酒店工程</router-link>		
+							<router-link to="/product">住宅工程</router-link>		
 						</div>
 						</li>
 						<li><router-link to="/introduce">团队简介</router-link></li>
@@ -32,6 +29,9 @@
 import('../fonts/icon-font/iconfont.css')
 </script>
 <style scoped>
+header{
+	min-width: 1200px;
+}
 .navbar {
 	height: 60px;
 	background: #1a1a1a;

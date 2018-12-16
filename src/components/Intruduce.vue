@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="introduce">
     <header-view></header-view>
       <!--面包屑导航-->
       <div class="breadcrumb">
@@ -61,15 +61,7 @@ export default {
       {name:'高圆圆1',
       pic:require('../assets/images/avatar.jpg'),
       details:"高圆圆，1979年10月5日出生于北京市，中国内地影视女演员、模特。"
-      },
-      {name:'高圆圆2',
-      pic:require('../assets/images/avatar.jpg'),
-      details:"高圆圆，1979年10月5日出生于北京市，中国内地影视女演员、模特。"
-      },
-      {name:'高圆圆3',
-      pic:require('../assets/images/avatar.jpg'),
-      details:"高圆圆，1979年10月5日出生于北京市，中国内地影视女演员、模特。"
-      },
+      }
       ],
       details:{
 
@@ -92,7 +84,7 @@ export default {
 }
 </script>
 <style scoped>
-.main{width:1200px;margin:0 auto;}
+.main{width:1200px;margin:10px auto 0;padding-left:15px;}
 .main .title{font-size:24px;font-weight:bold;}
 .main .title .line{border-bottom:4px solid #666;width:60px;margin-top:10px;margin-bottom:20px;}
 .main .item{border:1px solid #EAEAEA;width:100%;display:flex;margin-top:18px;}

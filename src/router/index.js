@@ -9,6 +9,8 @@ import About from '@/components/About'
 import Intruduce from '@/components/Intruduce'
 import New from '@/components/New'
 import NewsDetail from '@/components/NewsDetail'
+import Product from '@/components/Product'
+
 
 Vue.use(Router)
 
@@ -18,6 +20,11 @@ export default new Router({
       path: '/',
       name: 'Index',
       component: Index
+    },
+    {
+      path: '/header',
+      name:'Header',
+      component: Header
     },
     {
       path: '/index',
@@ -48,6 +55,11 @@ export default new Router({
       path: '/newsDetails',
       name: 'NewsDetail',
       component: NewsDetail
+    },
+    {
+      path: '/product',
+      name: 'Product',
+      component: Product
     },
   ]
 })

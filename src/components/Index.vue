@@ -14,11 +14,12 @@
           </div>
     <div class="main container">
       <div class="ind_con1">
-        <h2 class="title"><a href="#" class="more">more</a>航华产品</h2>
+        <h2 class="title"><a href="#" class="more">more</a>航华服务</h2>
         <ul class="clearfloat">
-          <li><a href="#" class="link"><img src="../assets/images/01.jpg" alt=""/></a></li>
-          <li><a href="#" class="link"><img src="../assets/images/02.jpg" alt=""/></a></li>
-          <li><a href="#" class="link"><img src="../assets/images/03.jpg" alt=""/></a></li>
+          <li><a href="#" class="link"><img src="../assets/images/s1.jpg" alt=""/></a></li>
+          <li><a href="#" class="link"><img src="../assets/images/s3.jpg" alt=""/></a></li>
+          <li><a href="#" class="link"><img src="../assets/images/s2.jpg" alt=""/></a></li>
+          
         </ul>
       </div>
       <div class="ind_con2 clearfloat">
@@ -35,7 +36,7 @@
         </div>
       </div>
     </div>
-    <footer-view></footer-view>    
+    <footer-view></footer-view>
   </div>
 </template>
 
@@ -52,10 +53,10 @@ export default {
     return {
       msg: '这是主页面',
       imgUrls:[
-        {src:require('../assets/images/banner_01.jpg')},
-        {src:require('../assets/images/banner_02.jpg')},
-        {src:require('../assets/images/banner_03.jpg')},
-        {src:require('../assets/images/banner_04.jpg')},
+        // {src:require('../assets/images/banner_01.jpg')},
+        // {src:require('../assets/images/banner_02.jpg')},
+        // {src:require('../assets/images/banner_03.jpg')},
+        // {src:require('../assets/images/banner_04.jpg')},
         {src:require('../assets/images/banner1.png')},
         {src:require('../assets/images/banner2.jpg')},
         {src:require('../assets/images/banner3.jpg')},
@@ -67,6 +68,7 @@ export default {
     
     // 如果需要前进后退按钮
       navigation: {
+
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },

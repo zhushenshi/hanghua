@@ -60,7 +60,12 @@ import('../fonts/icon-font/iconfont.css')
 }
 .navbar	.nav>ul>li:hover>a {
 	background: #07254e;
-}	
+}
+.navbar	.nav>ul>li>a i{
+	position:relative;
+	bottom:2px;
+	margin-right: 3px;
+}
 .navbar .nav ul li.nav_more .icon_list {
 	display: inline-block;
 	vertical-align: middle;

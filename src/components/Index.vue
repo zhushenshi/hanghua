@@ -16,9 +16,9 @@
       <div class="ind_con1">
         <h2 class="title"><a href="#" class="more">more</a>航华服务</h2>
         <ul class="clearfloat">
-          <li><a href="#" class="link"><img src="../assets/images/s1.jpg" alt=""/></a></li>
-          <li><a href="#" class="link"><img src="../assets/images/s3.jpg" alt=""/></a></li>
-          <li><a href="#" class="link"><img src="../assets/images/s2.jpg" alt=""/></a></li>
+          <li><a href="#/product" class="link"><img src="../assets/images/s1.jpg" alt=""/></a></li>
+          <li><a href="#/product" class="link"><img src="../assets/images/s3.jpg" alt=""/></a></li>
+          <li><a href="#/product" class="link"><img src="../assets/images/s2.jpg" alt=""/></a></li>
           
         </ul>
       </div>
@@ -31,7 +31,7 @@
         <div class="ind_news">
           <h2 class="title"><a href="#" class="more">more</a>公司动态</h2>
           <ul>
-            <li><span>2016-02-21</span><a href="">空气净化器要逆天？ “玫瑰金”“土豪金”齐上阵</a></li>
+            <li><span>208-12</span><a href="#/new">中国将彻底改变全球清洁能源产业</a></li>
           </ul>
         </div>
       </div>

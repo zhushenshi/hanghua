@@ -29,13 +29,13 @@
     </ul>
     <span class="qrcode"></span>
     <div class="kefu">
-      <h4>4000-585-116</h4>
+      <h4>0551-65233616</h4>
       <span>周一至周五9:00-17:30</span>
       <a href="#">金 牌 客 服</a>
     </div>
   </div>
   <div class="copyright">
-    Copyright © 2018 Apple Inc 保留所有权利。使用条款|客户隐私政策        © 安徽航华科技有限公司  京公安网安备 11010500896 | 京ICP备 12050755
+    Copyright © 2018 Apple Inc 保留所有权利。使用条款|客户隐私政策        © 安徽航华科技有限公司  京公安网安备 ********* | 京ICP备 12050755
   </div>
 </div>
 </template>

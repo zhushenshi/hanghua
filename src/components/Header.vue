@@ -17,7 +17,7 @@
 							<router-link to="/product">住宅工程</router-link>		
 						</div>
 						</li>
-						<li><router-link to="/introduce">团队简介</router-link></li>
+						<li><router-link to="/introduce">招贤纳士</router-link></li>
 						<li><router-link to="/contact">联系我们</router-link></li>
 					</ul>
 				</div>

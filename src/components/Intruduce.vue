@@ -5,13 +5,13 @@
       <div class="breadcrumb">
         <div class="container">
             <h2>
-            <a href="">首页</a>&gt;<a href="/introduce">业务团队</a>
+            <a href="">首页</a>&gt;<a href="/introduce">招贤纳士</a>
             </h2>
         </div>
       </div>
       <div class="main">
         <div class="title">
-          <div>团队简介</div>
+          <div>加入我们</div>
           <div class="line"></div>
         </div>
         <div class="item" @click="showDetail(index)" v-for="(item,index) in group" :key="index">

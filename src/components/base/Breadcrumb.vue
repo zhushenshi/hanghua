@@ -32,6 +32,7 @@ export default {
         background: #f1f1f1;
         border-top:2px solid #ddd;
         border-bottom: 1px solid #ddd;
+        position:fixed;
     }
     .breadcrumb h2 {
         padding-left: 17px;

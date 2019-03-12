@@ -104,6 +104,7 @@ export default {
 .swiper-container {
     width: 100%;
     min-width: 1200px;
+    margin-top:60px;
 }  
 .title {
     font-size: 16px;

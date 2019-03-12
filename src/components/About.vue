@@ -53,6 +53,10 @@ export default {
         background: #f1f1f1;
         border-top:2px solid #ddd;
         border-bottom: 1px solid #ddd;
+        /* position:fixed;
+        top:60px;
+        width: 100%; */
+        margin-top:60px;
     }
     .breadcrumb h2 {
         padding-left: 17px;
@@ -68,7 +72,7 @@ export default {
         font-size:12px;
     }
 .about {
-    margin-top: 30px;
+    /* margin-top: 100px; */
     width:80%;
 }
 .about .title{

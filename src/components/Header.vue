@@ -17,6 +17,7 @@
 							<router-link to="/product">住宅工程</router-link>		
 						</div>
 						</li>
+						<li><router-link to="/case">工程案例</router-link></li>
 						<li><router-link to="/introduce">招贤纳士</router-link></li>
 						<li><router-link to="/contact">联系我们</router-link></li>
 					</ul>
@@ -31,6 +32,10 @@ import('../fonts/icon-font/iconfont.css')
 <style scoped>
 header{
 	min-width: 1200px;
+	position:fixed;
+	width:100%;
+	top:0;
+	z-index: 1000;
 }
 .navbar {
 	height: 60px;
